@@ -1,0 +1,35 @@
+[
+    {
+        "id":"1",
+        "titre":"Développement Web",
+        "liste":[
+            "Language : HTML, CSS, SASS, JavaScript",
+            "Frameworks: React (en cours d'apprentissage)",
+            "Versionning : Git & GitHub",
+            "API : Intégration est exploitation de services tiers"
+        ]
+    },
+    {
+        "id":"2",
+        "titre":"Maintenance & support informatique",
+        "liste":[
+            "Diagnostic et dépannage matériel/logiciel",
+            "Installation et configuration de systèmes d’exploitation (Windows)",
+            "Gestion et mise à jour du parc informatique",
+            "Support utilisateur et formation aux outils"
+        ]
+    },
+    {
+        "id":"3",
+        "titre":"Bureautique & Automatisation",
+        "liste":[
+            "Pack Office : Word, Excel (avancé), PowerPoint",
+            "VBA Excel : automatisation, formulaires, suivi et analyse des données"
+        ]
+    },
+    {
+        "id":"4",
+        "titre":"Atouts",
+        "liste":"Autonomie & Adaptabilité, sens de l’organisation & rigueur, réactivité & persévérance, bonne communication & pédagogie"
+    }
+]

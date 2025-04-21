@@ -1,0 +1,36 @@
+{
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": false, // ne pas formater le code à la sauvegarde
+    "editor.formatOnPaste": false, // ne pas formater le code au collage
+    "editor.renderWhitespace": "trailing", // afficher les espaces
+    "editor.linkedEditing": true, // permet de modifier le nom d'une variable dans tout le fichier en même temps
+    "editor.occurrencesHighlight": "multiFile", // surligner les occurences de la variable
+    "editor.suggest.insertMode": "replace", // remplacer le mot au lieu de l'ajouter à la suite
+    "editor.acceptSuggestionOnCommitCharacter": false, // accepter la suggestion sur le caractère de validation    
+    "files.autoSave": "onFocusChange", // sauvegarde automatique
+    "files.defaultLanguage": "html", // langage par défaut
+    "files.insertFinalNewline": true, // insérer une nouvelle ligne à la fin du fichier
+    "workbench.tree.indent": 15, // indentation de l'arbre
+    "workbench.tree.renderIndentGuides": "always", // afficher les guides d'indentation
+    "emmet.triggerExpansionOnTab": true, // activer l'expansion d'emmet sur tab
+    "git.confirmSync": false, // ne pas demander de confirmation avant de synchroniser
+    "git.enableSmartCommit": true, // activer le commit intelligent
+    "workbench.colorTheme": "Abyss", // thème sombre
+    "workbench.colorCustomizations": {
+        "[Abyss]": {
+            "editor.selectionBackground": "#4b4b4b", // couleur de la sélection
+            "editor.selectionHighlightBackground": "#4b4b4b91" // couleur de la sélection
+        }
+    },
+    "editor.fontFamily": "aptos", // police de caractères
+    "workbench.iconTheme": "material-icon-theme", // thème d'icônes
+    "liveServer.settings.port": 5501, // port du serveur local
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/css"
+        }
+    ],
+    //"liveSassCompile.settings.watchOnLaunch": true
+}

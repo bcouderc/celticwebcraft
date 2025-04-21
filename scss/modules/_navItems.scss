@@ -1,0 +1,48 @@
+//Menu de navigation
+#navigation {
+    display:flex;
+    flex-direction:row;
+    height:100px;
+    width:100vw;
+    justify-content: space-between;
+    //border: solid 1px var(--grise);
+  }
+  .menuNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+  }
+  .arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width:100px;
+    border: solid 2px color("grise");
+    border-radius : 100%;
+    & img {
+        width: auto;
+        height: 50px;
+    };
+  }
+  .zoneLeft{
+    display: flex;
+    flex:3;
+  }
+  .zoneCentrale, .zoneRight{
+    display: flex;
+    flex-direction:column;
+    height: 100px;
+    flex:3;
+    & div > p{
+        min-height : 20px;
+    }
+  }
+  .div1, .div2{
+    width:auto;
+    height:50px;
+  }
+  .div1{
+    border-bottom:solid 2px color("grise");
+  }

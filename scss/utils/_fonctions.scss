@@ -1,0 +1,7 @@
+@function color($color){
+    @return map-guet($colors,$color);
+}
+
+@function font-size($font-size){
+    @return map-guet($font-sizes, $font-size);
+}

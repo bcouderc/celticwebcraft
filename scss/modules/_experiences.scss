@@ -1,0 +1,27 @@
+#titleContent h2{
+    color: color("or");
+}
+
+#expComp{
+    display:flex;
+    flex-direction:column;
+    width:auto;
+    justify-content: space-around;
+    min-height: 35vh;
+}
+
+#navContent, #titleContent, #expCompContent, #navItems, #pdpContent{
+    display:flex;
+    flex-basis:auto;
+}
+#expCompContent{
+    display:flex;
+    flex-direction:row;
+}
+#experience, #competences{
+    flex-direction: column;
+}
+
+#experience, #competences li {
+    color: color("white");
+}

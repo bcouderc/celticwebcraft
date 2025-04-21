@@ -1,0 +1,39 @@
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body {
+    margin: 20px auto; // permet de centrer l'image horizontalement
+    max-width: 1800px;
+    font-size: font-size("md");
+    font-family: "Zen Kaku Gothic Antique", monospace, Verdana, sans-serif;
+    background-color: color("fond");
+    margin: auto;
+}
+
+p, li{
+    color: color("white");
+}
+p{
+    text-align: justify;
+    color: color("white");
+}   
+h1, h2 {
+    font-size: font-size("md");
+    margin: 10px 15px;
+    color: color("white");
+}
+h3{
+    font-size : font-size("xs");
+    color: color("grise");
+}
+#container {
+    min-height: 100vh;
+    height: 100%;
+    //créé un fond dégradé
+    background: color("degrad1");
+    background: -moz-linear-gradient(45deg, color("degrad1") 0%, color("degrad2") 62%, color("degrad1") 100%);
+    background: -webkit-linear-gradient(45deg,color("degrad1") 0%, color("degrad2") 62%, color("degrad1") 100%);
+    background: linear-gradient(45deg, color("degrad1") 0%, color("degrad2") 62%, color("degrad1") 100%);
+}

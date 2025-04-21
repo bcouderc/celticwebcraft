@@ -1,0 +1,11 @@
+// Code du Footer
+#pdpContent {
+    display: flex;
+    justify-content: center;
+    color: color("white");
+    font-family: "Zen dots", monospace, Verdana, sans-serif;
+    font-size: font-size("xxs");
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

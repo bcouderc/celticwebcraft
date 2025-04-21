@@ -1,0 +1,21 @@
+# Ignorer tous les fichiers .log
+*.log
+# Ignorer les fichiers Firebase générés
+/.firebase/
+firebase-debug.log
+firebase-reports/
+# Ignorer les fichiers de déploiement de Firebase
+/firestore.indexes.json
+/firestore.rules
+/storage.rules
+
+# Ignorer le répertoire des fonctions Firebase (si tu n'as pas besoin de versionner ces fichiers)
+functions/node_modules/
+functions/lib/
+
+# Si tu n'utilises pas la base de données Firestore ou le stockage, tu peux ignorer aussi ces fichiers
+/storage/
+/firestore/
+
+#ignorer le répertoire node_module
+/node_modules/
