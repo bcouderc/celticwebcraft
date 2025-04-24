@@ -1,7 +1,7 @@
-@function color($color){
-    @return map-guet($colors,$color);
+@function color($color : "white"){
+    @return map-get($colors, $color);
 }
 
-@function font-size($font-size){
-    @return map-guet($font-sizes, $font-size);
+@function police($font-size){
+    @return map-get($font-sizes, $font-size);
 }

@@ -1,3 +1,4 @@
+/*debut mainHeader.scss*/
 #mainHeader{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -16,11 +17,11 @@
             color: color("or");
             padding-left: 30px;
             text-decoration: none;
-            font-size: font-size("xxl");
+            font-size: police("xxl");
         }
 
         & a:hover{
-            color: color("white");
+            color: color();
             text-shadow: 3px 3px 2px color("black");
         }
     }

@@ -24,7 +24,7 @@
     },
     "editor.fontFamily": "aptos", // police de caractères
     "workbench.iconTheme": "material-icon-theme", // thème d'icônes
-    "liveServer.settings.port": 5501, // port du serveur local
+    "liveServer.settings.port": 5502, // port du serveur local
     "liveSassCompile.settings.formats": [
         {
             "format": "expanded",

@@ -1,4 +1,4 @@
-
+/*debut main.scss*/
 *, *:before, *:after{
     box-sizing: inherit;
 }
@@ -6,26 +6,24 @@
 body {
     margin: 20px auto; // permet de centrer l'image horizontalement
     max-width: 1800px;
-    font-size: font-size("md");
+    font-size: police("md");
     font-family: "Zen Kaku Gothic Antique", monospace, Verdana, sans-serif;
     background-color: color("fond");
     margin: auto;
 }
 
-p, li{
-    color: color("white");
+h1, h2, p, li{
+    color: color();
 }
 p{
     text-align: justify;
-    color: color("white");
 }   
 h1, h2 {
-    font-size: font-size("md");
+    font-size: police("md");;
     margin: 10px 15px;
-    color: color("white");
 }
 h3{
-    font-size : font-size("xs");
+    font-size : police("xs");;
     color: color("grise");
 }
 #container {

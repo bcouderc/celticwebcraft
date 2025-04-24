@@ -1,0 +1,16 @@
+.dots{
+    position: absolute;
+    display: flex;
+}
+
+.dot{
+    margin-inline: 5px;
+    width: 13px;
+    height: 13px;
+    background-color: color("or");
+    border-radius: 100%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.28);
+    &_selected{
+        background-color: color();
+    }
+}

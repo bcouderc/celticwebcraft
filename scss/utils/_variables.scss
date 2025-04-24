@@ -1,29 +1,32 @@
 :root {
-    $colors :(
-        "black": #333,
-        "blackGreen": #133133,
 
-        "darkBlue":#19354d,
-        "or": rgb(235, 180, 44),
-        "shadow" : rgba(255, 255, 255, 0.15),
-        "white": #FFF,
-        "grise":#bbbbbb,
-        "fond" : #404040,
 
-        "degrad1":#202020,
-        "degrad2":#6D6D6D,
-
-        "colorTest1": #53898D,
-        "colorTest2": #2F6265,
-        "colorTest3": #133234,
-        "colorTest4": #164C50,
-        "colorTest5": #0D3C3F,
-        "colorTest6": #341513,
-        "colorTest7": #562724,
-        "colorTest8": #341322
-    );
     box-sizing: border-box;
 }
+
+$colors: (
+    "black": #333,
+    "blackGreen": #133133,
+
+    "darkBlue":#19354d,
+    "or": rgb(235, 180, 44),
+    "shadow" : rgba(255, 255, 255, 0.15),
+    "white": #FFF,
+    "grise":#bbbbbb,
+    "fond" : #404040,
+
+    "degrad1":#202020,
+    "degrad2":#6D6D6D,
+
+    "colorTest1": #53898D,
+    "colorTest2": #2F6265,
+    "colorTest3": #133234,
+    "colorTest4": #164C50,
+    "colorTest5": #0D3C3F,
+    "colorTest6": #341513,
+    "colorTest7": #562724,
+    "colorTest8": #341322
+);
 
 $font-sizes-1: (
     "small": 12px,

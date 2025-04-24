@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Zen+Dots&family=Zen+Kaku+Gothic+Antique&display=swap');
 
 //import utils
-@import "utils/_variables.scss";
-@import "utils/_mixins.scss";
+@import "utils/variables";
+@import "utils/mixins";
 @import "utils/fonctions";
 
 //import modules

@@ -1,4 +1,4 @@
-// Ici commence la version responsive
+/*debut responsive.scss*/
 @media all and (min-width: 300px) {
 
     // ici commence le code pour le menu burger
@@ -9,7 +9,7 @@
         z-index: 1;
         top: 0;
         right: 300px;
-        background-color: color("degrad1");
+        background-color: map-get($colors,"degrad1");
         padding-top: 60px;
         transition: right 0.3s ease;
 
@@ -17,11 +17,11 @@
             padding: 32px 8px 8px 8px;
             text-decoration: none;
             font-size: 25px;
-            color: color("white");
+            color: map-get($colors,"white");
             display: block;
             transition: 0.8s;
             &:hover{
-                color: color("or");
+                color: map-get($colors,"or");
             }
         }
         & ul {
@@ -39,7 +39,7 @@
             top: 0;
             right: 25px;
             font-size: 36px;
-            color: color("white");
+            color: map-get($colors,"white");
             cursor: pointer;
         }
     }
@@ -47,7 +47,7 @@
         display: block;
         width: 35px;
         height: 5px;
-        background-color: color("white");
+        background-color: map-get($colors,"white");
         margin: 6px 0;
     }
 

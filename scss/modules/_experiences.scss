@@ -1,3 +1,6 @@
+/*debut experiences.scss*/
+@import "dots";
+
 #titleContent h2{
     color: color("or");
 }
@@ -23,5 +26,5 @@
 }
 
 #experience, #competences li {
-    color: color("white");
+    color: color();
 }
