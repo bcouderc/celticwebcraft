@@ -2,9 +2,9 @@
 #pdpContent {
     display: flex;
     justify-content: center;
-    color: map-get($colors,"white");
+    color: color();
     font-family: "Zen dots", monospace, Verdana, sans-serif;
-    font-size: map-get($font-sizes,"xxs");
+    font-size: police("xxs");
     position: fixed;
     width: 100%;
     bottom: 0;

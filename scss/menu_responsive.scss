@@ -1,0 +1,117 @@
+@import "utils/variables";
+@import "utils/mixins";
+@import "utils/fonctions";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px auto; // permet de centrer l'image horizontalement
+    max-width: 1800px;
+    font-size: police("md");
+    font-family: "Zen Kaku Gothic Antique", monospace, Verdana, sans-serif;
+    background-color: color("fond");
+    margin: auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15%;
+    box-shadow: rgba(0,0,0,0.1) 0 0 10px;
+    background-color: color();
+}
+
+.logo{
+    font-size: 45px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    & li{
+        margin: 0 10px;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: color("black");
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: 0.5s;
+    border-radius: 6px;
+    &:hover{
+        background-color: color("black");
+        color: color();
+    }
+}
+
+// responsive
+
+@media screen and (max-width: 1037px){
+
+    body{
+        position: relative;
+    }
+
+    header{
+        padding: 10px 20px;
+    }
+
+    ul{
+        flex-direction: column;
+        position: absolute;
+        background-color: rgba(255,255,255,0.8);
+        top: 0;
+        lef: -1500px;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        backdrop-filter: blur (5px);
+        transition: 0.5s;
+        & li{
+            margin: 20px 0;
+            & a {
+                text-transform: uppercase;
+            }
+        }
+        &.active{
+            left:0;
+        }
+    }
+    .button{
+        width: 50px;
+        height: 50px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        z-index: 100;
+        &::after, ::before{
+            content: "";
+            position: absolute;
+            width: 35px;
+            height: 2px;
+            background: color("black");            
+            transform: translateY(-10px);
+            transition: 0.5s;
+        }
+        &::after{
+            box-shadow: 0 10px 0 color("black");
+        }
+        &.active::after{
+            box-shadow: 0 0 0 clor("black");
+            transform: rotate(45deg);
+        }
+        &.active::before{
+            transform: rotate(-45deg);
+        }
+    }
+}

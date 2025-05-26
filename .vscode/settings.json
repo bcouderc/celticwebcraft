@@ -15,7 +15,7 @@
     "emmet.triggerExpansionOnTab": true, // activer l'expansion d'emmet sur tab
     "git.confirmSync": false, // ne pas demander de confirmation avant de synchroniser
     "git.enableSmartCommit": true, // activer le commit intelligent
-    "workbench.colorTheme": "Abyss", // thème sombre
+    "workbench.colorTheme": "Tokyo Night Storm", // thème sombre
     "workbench.colorCustomizations": {
         "[Abyss]": {
             "editor.selectionBackground": "#4b4b4b", // couleur de la sélection

@@ -1,0 +1,23 @@
+
+#mainHeader{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navigation{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin: 0 10px;
+    & li {
+        display: inline;
+        font-family: "zen dots";
+        font-size: police("md");
+        color: color("or");
+    };
+}
+

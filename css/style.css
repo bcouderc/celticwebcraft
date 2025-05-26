@@ -42,153 +42,26 @@ h3 {
   background: linear-gradient(45deg, #202020 0%, #6D6D6D 62%, #202020 100%);
 }
 
-/*debut mainHeader.scss*/
 #mainHeader {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: center;
-}
-#mainHeader #mainNav {
   display: flex;
-  justify-content: flex-end;
-  gap: 20px;
-}
-#mainHeader #mainNav li {
-  display: inline-block;
-}
-#mainHeader #mainNav a {
-  color: rgb(235, 180, 44);
-  padding-left: 30px;
-  text-decoration: none;
-  font-size: 2rem;
-}
-#mainHeader #mainNav a:hover {
-  color: #FFF;
-  text-shadow: 3px 3px 2px #333;
-}
-
-#imgPortrait img {
-  border-radius: 20px;
-  box-shadow: 4px 4px 5px #333;
-  width: 300px;
-  height: auto;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
 }
 
 #navigation {
+  list-style-type: none;
+  text-decoration: none;
   display: flex;
-  flex-direction: row;
-  height: 100px;
-  width: 100vw;
-  justify-content: space-between;
+  gap: 30px;
+  padding: 0;
+  margin: 0 10px;
 }
-
-.menuNav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex: 1;
-}
-
-.arrow {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100px;
-  width: 100px;
-  border: solid 2px #bbbbbb;
-  border-radius: 100%;
-}
-.arrow img {
-  width: auto;
-  height: 50px;
-}
-
-.zoneLeft {
-  display: flex;
-  flex: 3;
-}
-
-.zoneCentrale, .zoneRight {
-  display: flex;
-  flex-direction: column;
-  height: 100px;
-  flex: 3;
-}
-.zoneCentrale div > p, .zoneRight div > p {
-  min-height: 20px;
-}
-
-.div1, .div2 {
-  width: auto;
-  height: 50px;
-}
-
-.div1 {
-  border-bottom: solid 2px #bbbbbb;
-}
-
-/*debut experiences.scss*/
-.dots {
-  position: absolute;
-  display: flex;
-}
-
-.dot {
-  margin-inline: 5px;
-  width: 13px;
-  height: 13px;
-  background-color: rgb(235, 180, 44);
-  border-radius: 100%;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.28);
-}
-.dot_selected {
-  background-color: #FFF;
-}
-
-#titleContent h2 {
+#navigation li {
+  display: inline;
+  font-family: "zen dots";
+  font-size: 1rem;
   color: rgb(235, 180, 44);
-}
-
-#expComp {
-  display: flex;
-  flex-direction: column;
-  width: auto;
-  justify-content: space-around;
-  min-height: 35vh;
-}
-
-#navContent, #titleContent, #expCompContent, #navItems, #pdpContent {
-  display: flex;
-  flex-basis: auto;
-}
-
-#expCompContent {
-  display: flex;
-  flex-direction: row;
-}
-
-#experience, #competences {
-  flex-direction: column;
-}
-
-#experience, #competences li {
-  color: #FFF;
-}
-
-/*debut rsxSociaux.scss*/
-#imgRsxSociaux {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  position: fixed;
-  width: 100%;
-  bottom: 30px;
-}
-#imgRsxSociaux img {
-  border-radius: 10px;
-  box-shadow: 4px 4px 5px #333;
-  width: 40px;
-  height: auto;
 }
 
 #pdpContent {
@@ -200,89 +73,4 @@ h3 {
   position: fixed;
   width: 100%;
   bottom: 0;
-}
-
-/*debut responsive.scss*/
-@media all and (min-width: 300px) {
-  .menuBurgerNav {
-    height: 100%;
-    width: 300px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 300px;
-    background-color: #202020;
-    padding-top: 60px;
-    transition: right 0.3s ease;
-  }
-  .menuBurgerNav a {
-    padding: 32px 8px 8px 8px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #FFF;
-    display: block;
-    transition: 0.8s;
-  }
-  .menuBurgerNav a:hover {
-    color: rgb(235, 180, 44);
-  }
-  .menuBurgerNav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  .menuBurgerNav.active {
-    right: 0;
-  }
-  .menuBurgerNav .close {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    color: #FFF;
-    cursor: pointer;
-  }
-  .burgerIcon {
-    display: block;
-    width: 35px;
-    height: 5px;
-    background-color: #FFF;
-    margin: 6px 0;
-  }
-  #mainNav {
-    visibility: visible;
-    opacity: 1;
-  }
-  #mainHeader {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    height: 50px;
-  }
-  #mainHeader img {
-    position: absolute;
-    z-index: 1;
-    width: 200px;
-    height: auto;
-  }
-  #mainHeader .burger {
-    display: flex;
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  #pageBarre {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 3vh;
-  }
-  #pageBarre > h1, #pageBarre h2 {
-    margin: auto;
-  }
-  #imgPortrait img {
-    width: 20vh;
-  }
 }/*# sourceMappingURL=style.css.map */
