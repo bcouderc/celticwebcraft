@@ -4,20 +4,30 @@
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
+    & img{
+        width: 250px;
+        height: auto;
+    }
 }
 
 #navigation{
-    list-style-type: none;
-    text-decoration: none;
     display: flex;
     gap: 30px;
     padding: 0;
     margin: 0 10px;
+    & a{
+        text-decoration: none;
+        list-style-type: none;
+        color: color("or");
+        &:hover{
+            color: color();
+            text-shadow: 2px 1px 2px color("grise");
+        }
+    }
     & li {
         display: inline;
         font-family: "zen dots";
         font-size: police("md");
-        color: color("or");
     };
 }
 
