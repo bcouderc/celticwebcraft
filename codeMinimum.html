@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--<link rel="stylesheet" href="node_modules/normalize.css/normalize.css">-->
     <link rel="stylesheet" href="css/style.css">
+    <script src="/data/menuBurger.js" defer></script>
     <title>Portfolio de Béatrice COUDERC - Developpeuse Front-end Junior - Acceuil</title>
 </head>
 <body>
@@ -14,8 +15,9 @@
             <div>
                 <img src="images/logos/cwcLogoNB_blc sur fond noir.svg" alt="logo CelticWebCraft"></img>
             </div>
-            <div>
+            <div id="mySidenav" class="sidenav">
                 <nav>
+                    <a id="closeBtn" href="#" class="close">×</a>
                     <ul id="navigation">
                         <li><a href="index">Accueil</a></li>
                         <li><a href="apropos.html">A propos</a></li>
@@ -24,38 +26,21 @@
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </nav>
-            </div>
-        </header>
+            </div><!--Fin du menu de navigation-->
+        </header><!-- Fin du header-->
 
-        <section id="pageContent">
-            <main>
-                <article>
-                    <header>
-                        <h1></h1>
-                        <p></p>
-                    </header>
-                    <header>
-                        <h1></h1>
-                        <p></p>
-                    </header>
-                </article>
-            </main>
+        <a href="#" id="openBtn">
+            <span class="burger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+        </a><!--Fin du menu burger-->
 
-            <aside>
-                <section>
-                    <h1></h1>
-                    <label></label>
-                </section>
-                <section>
-                    <h1></h1>
-                    <label></label>
-                </section>
-            </aside>
-        </section>
 
-        <footer id="pdpContent"> <!--Ici commence le pied-de-page-->
+        <footer id="pdpContent">
             <p>&copy; 2025 - CelticWebCraft</p>
-        </footer>
+        </footer><!--  Fin du pied de page-->
     </div>
 </body>
 </html>
