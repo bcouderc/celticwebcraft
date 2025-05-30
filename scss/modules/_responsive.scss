@@ -1,7 +1,18 @@
-@media screen and (max-width: 1100px){
+@media screen and (max-width:950px){
     /* Sidenav menu */
-    #navigation {
-        display: none;
+    #navigation a {
+        color: color("black");
+    }
+
+    #closeBtn {
+        display: block;
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        font-size: police("xl");
+        text-decoration: none;
+        color: color("black");
+        z-index: 3;
     }
 
     /* Bouton burger visible*/
@@ -11,15 +22,17 @@
         top: 20px;
         right: 20px;
         z-index: 2;
+
+        & .burger-icon span {
+            display: block;
+            width: 30px;
+            height: 4px;
+            background-color: color("grise");
+            margin: 6px 0;
+            transition: 0.4s;
+        }
     }
-    .burger-icon span {
-        display: block;
-        width: 30px;
-        height: 4px;
-        background-color: color("grise");
-        margin: 6px 0;
-        transition: 0.4s;
-    }
+
     .sidenav{
         height: 100%;
         width: 280px;
@@ -33,6 +46,8 @@
         box-shadow: -2px 0 5px rgba(0,0,0,0.1);
 
         & nav ul {
+            flex-direction: column;
+            align-items: center;
             list-style-type: none;
             padding: 0;
             margin: 0;
@@ -42,7 +57,6 @@
                 
                 & a {
                     font-size: police("md");
-                    color: color("or");
                     text-decoration: none;
                     display: block;
                 }
@@ -51,14 +65,6 @@
         /* Active class */
         &.active{
             right: 0;
-        }
-        
-        /* Close btn */
-        &.close {
-            position: absolute;
-            top: 0;
-            right: 25px;
-            font-size: 36px;
         }
     }
 }

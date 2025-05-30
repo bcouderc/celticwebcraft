@@ -78,6 +78,10 @@ h3 {
   display: none;
 }
 
+#closeBtn {
+  display: none;
+}
+
 #pdpContent {
   display: flex;
   justify-content: center;
@@ -89,10 +93,20 @@ h3 {
   bottom: 0;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 950px) {
   /* Sidenav menu */
-  #navigation {
-    display: none;
+  #navigation a {
+    color: #333;
+  }
+  #closeBtn {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #333;
+    z-index: 3;
   }
   /* Bouton burger visible*/
   #openBtn {
@@ -102,7 +116,7 @@ h3 {
     right: 20px;
     z-index: 2;
   }
-  .burger-icon span {
+  #openBtn .burger-icon span {
     display: block;
     width: 30px;
     height: 4px;
@@ -122,9 +136,10 @@ h3 {
     transition: right 0.8s ease;
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
     /* Active class */
-    /* Close btn */
   }
   .sidenav nav ul {
+    flex-direction: column;
+    align-items: center;
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -134,17 +149,10 @@ h3 {
   }
   .sidenav nav ul li a {
     font-size: 1rem;
-    color: rgb(235, 180, 44);
     text-decoration: none;
     display: block;
   }
   .sidenav.active {
     right: 0;
-  }
-  .sidenav.close {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
   }
 }/*# sourceMappingURL=style.css.map */
