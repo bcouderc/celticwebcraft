@@ -74,11 +74,7 @@ h3 {
   font-size: 1rem;
 }
 
-#openBtn {
-  display: none;
-}
-
-#closeBtn {
+#openBtn, #closeBtn {
   display: none;
 }
 
@@ -109,8 +105,13 @@ h3 {
     z-index: 3;
   }
   /* Bouton burger visible*/
-  button {
-    all: unset;
+  #openBtn, #closeBtn {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
     cursor: pointer;
   }
   #openBtn {
