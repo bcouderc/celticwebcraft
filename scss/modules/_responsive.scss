@@ -16,6 +16,10 @@
     }
 
     /* Bouton burger visible*/
+    button {
+        all: unset;
+        cursor: pointer;
+    }
     #openBtn{
         display:block;
         position: absolute;

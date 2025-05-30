@@ -109,6 +109,10 @@ h3 {
     z-index: 3;
   }
   /* Bouton burger visible*/
+  button {
+    all: unset;
+    cursor: pointer;
+  }
   #openBtn {
     display: block;
     position: absolute;
