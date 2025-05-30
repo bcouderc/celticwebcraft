@@ -6,24 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--<link rel="stylesheet" href="node_modules/normalize.css/normalize.css">-->
     <link rel="stylesheet" href="css/style.css">
-    <title>Portfolio de Béatrice COUDERC - Technicienne informatique polyvalente et Developpeuse Front-end Junior - Acceuil</title>
+    <script src="data/menuBurger.js" defer></script>
+    <title>Portfolio de Béatrice COUDERC - Developpeuse Front-end Junior - Acceuil</title>
 </head>
 <body>
     <div id="container">
         <header id="mainHeader"> <!--Ici se trouve l'entête de la page-->
-            <img src="images/logos/cwcLogoNB_blc sur fond noir.png" alt="logo CelticWebCraft"></img>
-            <nav id="navigation">
-                <ul>
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="apropos.html">A propos</a></li>
-                    <li><a href="experiences.html">Expériences</a></li>
-                    <li><a href="#">Projets</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+            <div>
+                <img src="images/logos/cwcLogoNB_blc sur fond noir.png" alt="logo CelticWebCraft"></img>
+            </div>
+            <div id="mySidenav" class="sidenav">
+                <nav>
+                    <button id="closeBtn" class="close" aria-label="Fermer le menu">×</button>
+                    <ul id="navigation">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="apropos.html">A propos</a></li>
+                        <li><a href="experience.html">Expériences</a></li>
+                        <li><a href="#">Projets</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div><!--Fin du menu de navigation-->
+        </header><!-- Fin du header-->
 
-        <section id="pageBarre"> 
+        <button id="openBtn" aria-label="Ouvrir le menu">
+            <span class="burger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+        </button><!--Fin du menu burger-->
+<!-- Ici commence le contenu de la page index -->
+
+<section id="pageBarre"> 
             <div>
                 <figure id="imgPortrait">
                     <img src="images/portrait/StylizePhoto_4_20240519-v2.jpeg" alt="dessin portrait de l'auteur de cette page">
@@ -67,9 +82,16 @@
             <img src="images/logos/reseaux sociaux/linkedin-1.png" alt="Logo linkedin">
             <img src="images/logos/skills/github-brands-solid.svg" alt="Logo GitHub">
         </section>
-        <footer id="pdp"> <!--Ici commence le pied-de-page-->
+
+<!-- Ici se termine le contenu de la page index -->
+
+        <footer id="pdpContent">
             <p>&copy; 2025 - CelticWebCraft</p>
-        </footer>
+        </footer><!--  Fin du pied de page-->
     </div>
 </body>
 </html>
+
+
+
+
