@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Zen+Dots&family=Zen+Kaku+Gothic+Antique&display=swap");
 :root {
   box-sizing: border-box;
@@ -94,6 +95,10 @@ h3 {
   #navigation a {
     color: #333;
   }
+  #mainHeader img {
+    width: 40%;
+  }
+  /* Bouton Close visible */
   #closeBtn {
     display: block;
     position: absolute;
@@ -114,6 +119,7 @@ h3 {
     color: inherit;
     cursor: pointer;
   }
+  /* Bouton open visible + burger */
   #openBtn {
     display: block;
     position: absolute;
@@ -129,6 +135,7 @@ h3 {
     margin: 6px 0;
     transition: 0.4s;
   }
+  /* Mise en forme du menu latéral */
   .sidenav {
     height: 100%;
     width: 280px;

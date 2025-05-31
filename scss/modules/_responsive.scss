@@ -4,6 +4,11 @@
         color: color("black");
     }
 
+    #mainHeader img{
+        width: 40%; // réduit la taille du logo en mode responsive
+    }
+
+    /* Bouton Close visible */
     #closeBtn {
         display: block;
         position: absolute;
@@ -25,6 +30,8 @@
         color: inherit;
         cursor: pointer;
     }
+
+    /* Bouton open visible + burger */
     #openBtn{
         display:block;
         position: absolute;
@@ -42,6 +49,7 @@
         }
     }
 
+    /* Mise en forme du menu latéral */
     .sidenav{
         height: 100%;
         width: 280px;
@@ -76,4 +84,6 @@
             right: 0;
         }
     }
+// fin du code commun à toutes les pages (codeMinimum)
+
 }

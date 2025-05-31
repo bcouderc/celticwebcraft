@@ -1,22 +1,20 @@
 :root {
-
-
     box-sizing: border-box;
 }
 
 $colors: (
     "black": #333,
-    "blackGreen": #133133,
-
-    "darkBlue":#19354d,
-    "or": rgb(235, 180, 44),
-    "shadow" : rgba(255, 255, 255, 0.15),
     "white": #FFF,
     "grise":#bbbbbb,
     "fond" : #404040,
-
+    "or": rgb(235, 180, 44),
+    
     "degrad1":#202020,
     "degrad2":#6D6D6D,
+    
+    "blackGreen": #133133,
+    "darkBlue":#19354d,
+    "shadow" : rgba(255, 255, 255, 0.15),
 
     "colorTest1": #53898D,
     "colorTest2": #2F6265,
@@ -26,12 +24,6 @@ $colors: (
     "colorTest6": #341513,
     "colorTest7": #562724,
     "colorTest8": #341322
-);
-
-$font-sizes-1: (
-    "small": 12px,
-    "medium": 16px,
-    "large": 24px
 );
 
 //définition de la taille des caractères
