@@ -115,6 +115,9 @@ h3 {
   width: 40px;
   height: auto;
 }
+#imgRsxSociaux a:hover img {
+  transform: scale(1.1);
+}
 
 /* Début de la mise en forme du pdp.scss */
 #pdpContent {
