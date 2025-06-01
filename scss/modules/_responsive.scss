@@ -86,18 +86,12 @@
             right: 0;
         }
     }
-/* Fin de la partie commune (codeMinimum) */
 
-/* Mise en forme de la page index */
-    #pageTitre {
-        flex-direction: row;
 
-        & #imgPortrait img{
-            border-radius:50%;
-            width: 100px;
-        }
-        & div {
-            align-items: normal;
-        }
+/* Début de la mise en forme de la page index */
+    #pageTitre #imgPortrait img{
+        border-radius: 50%;
+        width: 100px;
+        margin-top: 50px;
     }
 }
