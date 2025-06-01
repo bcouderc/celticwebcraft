@@ -1,4 +1,4 @@
-
+/* Début de la mise en forme du navItems.scss */
   .menuNav{
     display: flex;
     flex-direction: row;
@@ -38,3 +38,20 @@
   .div1{
     border-bottom:solid 2px color("grise");
   }
+
+  .dots{
+    position: absolute;
+    display: flex;
+}
+
+.dot{
+    margin-inline: 5px;
+    width: 13px;
+    height: 13px;
+    background-color: color("or");
+    border-radius: 100%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.28);
+    &_selected{
+        background-color: color();
+    }
+}

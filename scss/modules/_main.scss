@@ -1,4 +1,4 @@
-/*debut main.scss*/
+/* Début de la mise en forme de la partie main.scss */
 *, *:before, *:after{
     box-sizing: inherit;
 }
@@ -15,16 +15,21 @@ body {
 h1, h2, p, li{
     color: color();
 }
+
 p{
     text-align: justify;
-}   
-h1, h2 {
-    font-size: police("md");;
-    margin: 10px 15px;
+    margin: 5px 15px;
 }
-h3{
-    font-size : police("xs");;
+
+h1, h2 {
+    font-size: police("md");
+    margin: 0 0 0 10px;
+}
+
+h3 {
+    font-size : police("xs");
     color: color("grise");
+    margin: 0 0 0 10px;
 }
 #container {
     min-height: 100vh;
