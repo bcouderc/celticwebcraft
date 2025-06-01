@@ -1,6 +1,10 @@
 /* Début de la mise en forme du responsive.scss */
 @media screen and (max-width:950px){
-/* Début de la partie commune (codeMinimum) */
+
+    h1, h2, h3, p {
+        font-size: police("sm");
+    }
+
     /* Sidenav menu */
     #navigation a {
         color: color("black");

@@ -46,6 +46,23 @@ h3 {
   background: linear-gradient(45deg, #202020 0%, #6D6D6D 62%, #202020 100%);
 }
 
+#imgRsxSociaux {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  position: fixed;
+  width: 100%;
+  bottom: 30px;
+}
+#imgRsxSociaux img {
+  border-radius: 10px;
+  width: 40px;
+  height: auto;
+}
+#imgRsxSociaux a:hover img {
+  transform: scale(1.1);
+}
+
 /* Début de la mise en forme du header*/
 #mainHeader {
   display: flex;
@@ -102,23 +119,6 @@ h3 {
   align-items: center;
 }
 
-#imgRsxSociaux {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  position: fixed;
-  width: 100%;
-  bottom: 30px;
-}
-#imgRsxSociaux img {
-  border-radius: 10px;
-  width: 40px;
-  height: auto;
-}
-#imgRsxSociaux a:hover img {
-  transform: scale(1.1);
-}
-
 /* Début de la mise en forme du pdp.scss */
 #pdpContent {
   display: flex;
@@ -133,7 +133,9 @@ h3 {
 
 /* Début de la mise en forme du responsive.scss */
 @media screen and (max-width: 950px) {
-  /* Début de la partie commune (codeMinimum) */
+  h1, h2, h3, p {
+    font-size: 0.9rem;
+  }
   /* Sidenav menu */
   #navigation a {
     color: #333;
