@@ -1,0 +1,11 @@
+#pageContent {
+    & main {
+        display: flex;
+        flex-direction: row;
+    }
+
+    & #imgPortrait img {
+        @include logoPortrait;
+    }
+
+}

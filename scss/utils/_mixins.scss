@@ -1,15 +1,7 @@
-@mixin display-flex{
-    display: -ms-flexbox;
-    display: flex;
-}
-
-@mixin fixed($position){
-    position: fixed;
-    width: 100%;
-    z-index: 10000;
-    #{$position}: 0; // ceci est une interpolation
-}
-
-@mixin border-radius($radius : $default-radius){
-    border-radius:$radius;
+@mixin logoPortrait {
+    display: block;
+    border-radius:7%;
+    width: 300px;
+    border: 3px solid color("black");
+    box-shadow: 2px 2px 10px 2px color("ombre");
 }

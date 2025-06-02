@@ -118,5 +118,12 @@
         }
     }
     
+/* Mise en forme de la page apropos*/
+#pageContent #imgPortrait {
+    margin: 0;
+    & img {
+        display: none;
+    }
+}
 
 }
