@@ -1,7 +1,7 @@
 /* Début de la mise en forme du responsive.scss */
 @media screen and (max-width:950px){
 
-    h1, h2, h3, p {
+    p {
         font-size: police("sm");
     }
 
@@ -93,15 +93,30 @@
 
 
 /* Début de la mise en forme de la page index */
-    #pageTitre #imgPortrait img{
-        border-radius: 50%;
-        width: 100px;
-        margin-top: 50px;
+    #pageTitre {
+        flex-direction: column;
+    
+        & #imgPortrait img{
+            border-radius: 50%;
+            width: 200px;
+            margin-top: 50px;
+        }
+
+        #imgRsxSociaux img{
+            width: 40px;
+            height: auto;
+            border-radius: 5px;
+        }
     }
 
-    #imgRsxSociaux img{
-        width: 40px;
-        height: auto;
-        border-radius: 5px;
+    .titre {
+        align-items: center;
+        margin-top: 50px;
+
+        & h1, h2, h3{
+            font-size: police("lg");
+        }
     }
+    
+
 }

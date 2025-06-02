@@ -1,7 +1,6 @@
 /* début de la mise en forme de la page index */
 #pageTitre {
     display: flex;
-    flex-direction: column;
     align-items: center;
 
     #imgPortrait img{
@@ -14,6 +13,10 @@
     & div { 
         display: flex;
         flex-direction: column;
-        align-items: center;
     }
+}
+
+
+.titre h1, h2, h3{
+    font-size: police("xxl");
 }
