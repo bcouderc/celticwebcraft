@@ -14,9 +14,8 @@
         display: flex;
         flex-direction: column;
     }
-}
 
-
-.titre h1, h2, h3{
-    font-size: police("xxl");
+    & .titre h1, h2, h3{
+        font-size: police("xl");
+    }
 }
