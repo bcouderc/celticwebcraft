@@ -2,10 +2,14 @@
 #pdpContent {
     display: flex;
     justify-content: center;
-    color: color();
-    font-family: "Zen dots", monospace, Verdana, sans-serif;
-    font-size: police("xxs");
     position: fixed;
     width: 100%;
     bottom: 0;
+    & p, a {
+        text-decoration: none;
+        color: color();
+        font-size: police("xs");
+        margin: 15px 15px;
+        font-family: "Zen dots", monospace, Verdana, sans-serif;
+    }
 }
