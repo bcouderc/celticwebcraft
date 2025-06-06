@@ -3,7 +3,6 @@
   "short_name": "CelticWebCraft",
   "start_url": "/index.html",
   "display": "standalone",
-  "background_color": "#ffffff",
   "theme_color": "#f0c808",
   "lang": "fr",
   "icons": [

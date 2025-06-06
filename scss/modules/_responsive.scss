@@ -7,7 +7,7 @@
 
     /* Sidenav menu */
     #navigation a {
-        color: color("black");
+        color: color("closeButton");
     }
 
     #mainHeader img{
@@ -22,7 +22,7 @@
         left: 20px;
         font-size: police("xl");
         text-decoration: none;
-        color: color("black");
+        color: color("closeButton");
         z-index: 3;
     }
 
@@ -49,7 +49,7 @@
             display: block;
             width: 30px;
             height: 4px;
-            background-color: color("grise");
+            background-color: color("navResponsive");
             margin: 6px 0;
             transition: 0.4s;
         }
@@ -63,7 +63,7 @@
         z-index: 1;
         top: 0;
         right: -280px;
-        background-color: color("grise");
+        background-color: color("navResponsive");
         padding-top: 60px;
         transition: right .8s ease;
         box-shadow: -2px 0 5px rgba(0,0,0,0.1);
@@ -107,6 +107,9 @@
             height: auto;
             border-radius: 5px;
         }
+        & div{
+            text-align: center;
+        }
     }
 
     .titre {
@@ -114,7 +117,7 @@
         margin-top: 30px;
 
         & h1, h2, h3{
-            font-size: police("lg");
+            font-size: police("md");
         }
     }
     

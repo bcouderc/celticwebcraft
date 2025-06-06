@@ -1,3 +1,5 @@
+/* Ici commence la mise en forme du formulaire de contact */
+
 #contact {
   max-width: 600px;
   margin: 0 auto;
@@ -23,13 +25,14 @@
     label {
       margin-bottom: 0.5rem;
       font-weight: bold;
+      color: color("grise");
     }
 
     input[type="text"],
     input[type="email"],
     textarea {
       padding: 0.8rem;
-      border: 1px solid #ccc;
+      border: 1px solid color("grise");
       border-radius: 8px;
       font-size: 1rem;
       resize: vertical;
