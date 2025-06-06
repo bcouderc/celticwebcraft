@@ -1,0 +1,91 @@
+#contact {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  text-align: center;
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    label {
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      padding: 0.8rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+      resize: vertical;
+
+      &:focus {
+        outline: none;
+        border-color: color("or");
+        box-shadow: 0 0 0 3px rgba(255, 204, 0, 0.3);
+      }
+    }
+
+    &.checkbox {
+      flex-direction: row;
+      align-items: center;
+
+      input[type="checkbox"] {
+        margin-right: 0.5rem;
+        width: 20px;
+        height: 20px;
+      }
+
+      label {
+        margin: 0;
+        font-weight: normal;
+
+        a {
+          color: color("or");
+          text-decoration: underline;
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+
+  button {
+    padding: 1rem 2rem;
+    background-color: color("or");
+    border: none;
+    border-radius: 8px;
+    color: #000;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, opacity 0.2s;
+
+    &:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+      opacity: 0.6;
+    }
+
+    &:hover:not(:disabled) {
+      background-color: darken(color("or"), 10%);
+    }
+  }
+}

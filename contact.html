@@ -4,9 +4,17 @@
     <meta charset="UTF-8">
     <meta name="description" content="Venez découvrir le travail de Béatrice COUDERC en matière de développement web et dépannage informatique aurpès des particuliers"></meta>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--<link rel="stylesheet" href="node_modules/normalize.css/normalize.css">-->
+
+    <meta name="description" content="Portfolio de Béatrice Couderc, technicienne informatique polyvalente et développeuse front-end freelance.">
+    <meta name="keywords" content="développement web, front-end, freelance, portfolio, Béatrice Couderc, CelticWebCraft">
+    <meta name="author" content="Béatrice Couderc">
+
+    <link rel="manifest" href="manifest.json">
+    <!-- Une PWA, ou Progressive Web App, est un site web qui se comporte comme une application mobile. Placé à la racine du site ce fichier permet de décrire l'application aux navigateurs (Chrome, Firefox, etc.)-->
+
     <link rel="stylesheet" href="css/style.css">
     <script src="data/menuBurger.js" defer></script>
+    <script src="data/formulaire.js" defer></script>
     <title>Portfolio de Béatrice COUDERC - Developpeuse Front-end Junior - Acceuil</title>
 </head>
 <body>
@@ -39,7 +47,41 @@
 <div id="pageContainer">
 <!-- Ici commence le contenu de la page x.html -->
 
+<section id="contact">
+  <h1>Contactez-moi</h1>
 
+  <form id="formContact" action="https://formspree.io/f/mqabeeoy" method="POST">
+    <div class="form-group">
+      <label for="nom">Nom *</label>
+      <input type="text" id="nom" name="nom" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email *</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message *</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+    </div>
+
+    <div class="form-group checkbox">
+      <input type="checkbox" id="accepteCGU" name="accepteCGU">
+      <label for="accepteCGU">
+        J’accepte les <a href="conditions-generales.html" target="_blank">conditions générales</a>
+      </label>
+    </div>
+
+    <div class="form-group">
+      <button type="submit" id="btnEnvoyer" disabled>Envoyer</button>
+    </div>
+  </form>
+
+  <p id="confirmationMessage" style="display: none; color: green; margin-top: 1rem;">
+    Merci, votre message a bien été envoyé !
+  </p>
+</section>
 
 <!-- Ici se termine le contenu de la page x.html -->
 </div>
