@@ -7,7 +7,7 @@ body {
     margin: 20px auto; // permet de centrer l'image horizontalement
     max-width: 1800px;
     font-size: police("md");
-    font-family: "Zen Kaku Gothic Antique", monospace, Verdana, sans-serif;
+    font-family: "Josefin Sans", Verdana, sans-serif;
     background-color: color("fond");
     margin: auto;
 }
@@ -24,7 +24,7 @@ p {
 h1, h2 {
     font-size: police("md");
     color: color("or");
-    margin: 0 0 0 10px;
+    margin: 0;
 }
 
 h3 {
@@ -40,6 +40,16 @@ h3 {
     background: -moz-linear-gradient(45deg, color("degrad1") 0%, color("degrad2") 62%, color("degrad1") 100%);
     background: -webkit-linear-gradient(45deg,color("degrad1") 0%, color("degrad2") 62%, color("degrad1") 100%);
     background: linear-gradient(45deg, color("degrad1") 0%, color("degrad2") 62%, color("degrad1") 100%);
+}
+
+#pageWrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; // garantit que le body occupe tout l’écran
+}
+
+main, #pageContainer {
+  flex: 1; // pousse le footer vers le bas si pas assez de contenu
 }
 
 #imgRsxSociaux {
