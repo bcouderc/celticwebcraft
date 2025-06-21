@@ -1,0 +1,98 @@
+.boxDevWeb{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.comptDev{
+    display: flex;
+    flex-direction: row;
+}
+.box {
+    width: 100px;
+    position: relative;
+}
+
+svg {
+    height: 90px;
+    width: 90px;
+
+    & circle {
+    fill: none;
+    stroke: color("grise");
+    stroke-width: 5px;
+    transform: translate(10px, 10px);
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    stroke-linecap: round;
+
+        &:nth-child(1){
+            stroke: color("circle");
+            stroke-dashoffset: 0;
+            filter: drop-shadow(2px 1px 2px color("ombre"));
+        }
+    }
+}
+
+.box.html circle:nth-child(2){
+    animation: circleHtml 2s forwards;
+}
+
+.box.css circle:nth-child(2){
+    animation: circleCss 2s forwards;
+}
+
+.box.sass circle:nth-child(2){
+    animation: circleSass 2s forwards;
+}
+
+.box.js circle:nth-child(2){
+    animation: circleJs 2s forwards;
+}
+
+
+
+span.texte {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: polices();
+    font-weight: 300;
+    color: color("grise");
+    &.html {
+        transform: translate(-25px, -9px);
+    }
+    &.css {
+        transform: translate(-18px, -9px);
+    }
+    &.sass{
+        transform: translate(-20px, -9px);
+    }
+    &.js{
+        transform: translate(-10px, -9px);
+    }
+}
+
+
+@keyframes circleHtml{
+    to {
+        stroke-dashoffset: 370; // plus le chiffre est élevé plus le cercle est petit
+    }
+}
+
+@keyframes circleCss{
+    to {
+        stroke-dashoffset: 400;
+    }
+}
+
+@keyframes circleSass{
+    to {
+        stroke-dashoffset: 410;
+    }
+}
+
+@keyframes circleJs{
+    to {
+        stroke-dashoffset: 450;
+    }
+}

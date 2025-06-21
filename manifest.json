@@ -1,7 +1,7 @@
 {
   "name": "CelticWebCraft - Portfolio de Béatrice Couderc",
   "short_name": "CelticWebCraft",
-  "start_url": "/index.html",
+  "start_url": "index.html",
   "display": "standalone",
   "theme_color": "#f0c808",
   "lang": "fr",

@@ -92,3 +92,9 @@
     }
   }
 }
+
+.confirmationMessage {
+    display: none;
+    color: color("confirmationMessage");
+    margin-top: 1rem;
+}
