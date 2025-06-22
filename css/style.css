@@ -459,7 +459,7 @@ main, #pageContainer {
   position: relative;
 }
 
-.boxMainSupp, .boxBur {
+.boxMaintSupp, .boxBur, .boxAtouts {
   width: 70%;
   margin: auto;
 }
