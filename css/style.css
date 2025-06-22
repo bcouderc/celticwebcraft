@@ -440,6 +440,11 @@ main, #pageContainer {
   #pageContent #imgPortrait img {
     display: none;
   }
+  /* Mise en forme de la page compétences*/
+  .boxDevWeb, .boxMaintSupp, .boxBur, .boxAtouts {
+    width: 100%;
+    margin: 0;
+  }
 }
 /* Ici commence la mise en forme de la page competence */
 .boxDevWeb {

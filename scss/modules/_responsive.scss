@@ -129,4 +129,9 @@
         }
     }
 
+/* Mise en forme de la page compétences*/
+.boxDevWeb, .boxMaintSupp, .boxBur, .boxAtouts {
+    @include positionMainResponsive
+}
+
 } // fin de @media
