@@ -328,6 +328,105 @@ main, #pageContainer {
   text-align: center;
 }
 
+/* Ici commence la mise en forme de la page competence */
+.boxDevWeb {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+}
+
+.comptDev {
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  width: 100px;
+  position: relative;
+}
+
+.boxMaintSupp, .boxBur, .boxAtouts {
+  width: 70%;
+  margin: auto;
+}
+
+svg {
+  height: 90px;
+  width: 90px;
+}
+svg circle {
+  fill: none;
+  stroke: #bbbbbb;
+  stroke-width: 5px;
+  transform: translate(10px, 10px);
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  stroke-linecap: round;
+}
+svg circle:nth-child(1) {
+  stroke: rgba(86, 39, 36, 0.3019607843);
+  stroke-dashoffset: 0;
+  filter: drop-shadow(2px 1px 2px rgba(5, 5, 5, 0.8));
+}
+
+.box.html circle:nth-child(2) {
+  animation: circleHtml 2s forwards;
+}
+
+.box.css circle:nth-child(2) {
+  animation: circleCss 2s forwards;
+}
+
+.box.sass circle:nth-child(2) {
+  animation: circleSass 2s forwards;
+}
+
+.box.js circle:nth-child(2) {
+  animation: circleJs 2s forwards;
+}
+
+span.texte {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: polices();
+  font-weight: 300;
+  color: #bbbbbb;
+}
+span.texte.html {
+  transform: translate(-25px, -9px);
+}
+span.texte.css {
+  transform: translate(-18px, -9px);
+}
+span.texte.sass {
+  transform: translate(-20px, -9px);
+}
+span.texte.js {
+  transform: translate(-10px, -9px);
+}
+
+@keyframes circleHtml {
+  to {
+    stroke-dashoffset: 370;
+  }
+}
+@keyframes circleCss {
+  to {
+    stroke-dashoffset: 400;
+  }
+}
+@keyframes circleSass {
+  to {
+    stroke-dashoffset: 410;
+  }
+}
+@keyframes circleJs {
+  to {
+    stroke-dashoffset: 450;
+  }
+}
 /* Début de la mise en forme du responsive.scss */
 @media screen and (max-width: 950px) {
   p {
@@ -444,104 +543,5 @@ main, #pageContainer {
   .boxDevWeb, .boxMaintSupp, .boxBur, .boxAtouts {
     width: 100%;
     margin: 0;
-  }
-}
-/* Ici commence la mise en forme de la page competence */
-.boxDevWeb {
-  display: flex;
-  flex-direction: column;
-  width: 70%;
-  margin: auto;
-}
-
-.comptDev {
-  display: flex;
-  flex-direction: row;
-}
-
-.box {
-  width: 100px;
-  position: relative;
-}
-
-.boxMaintSupp, .boxBur, .boxAtouts {
-  width: 70%;
-  margin: auto;
-}
-
-svg {
-  height: 90px;
-  width: 90px;
-}
-svg circle {
-  fill: none;
-  stroke: #bbbbbb;
-  stroke-width: 5px;
-  transform: translate(10px, 10px);
-  stroke-dasharray: 500;
-  stroke-dashoffset: 500;
-  stroke-linecap: round;
-}
-svg circle:nth-child(1) {
-  stroke: rgba(86, 39, 36, 0.3019607843);
-  stroke-dashoffset: 0;
-  filter: drop-shadow(2px 1px 2px rgba(5, 5, 5, 0.8));
-}
-
-.box.html circle:nth-child(2) {
-  animation: circleHtml 2s forwards;
-}
-
-.box.css circle:nth-child(2) {
-  animation: circleCss 2s forwards;
-}
-
-.box.sass circle:nth-child(2) {
-  animation: circleSass 2s forwards;
-}
-
-.box.js circle:nth-child(2) {
-  animation: circleJs 2s forwards;
-}
-
-span.texte {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  font-size: polices();
-  font-weight: 300;
-  color: #bbbbbb;
-}
-span.texte.html {
-  transform: translate(-25px, -9px);
-}
-span.texte.css {
-  transform: translate(-18px, -9px);
-}
-span.texte.sass {
-  transform: translate(-20px, -9px);
-}
-span.texte.js {
-  transform: translate(-10px, -9px);
-}
-
-@keyframes circleHtml {
-  to {
-    stroke-dashoffset: 370;
-  }
-}
-@keyframes circleCss {
-  to {
-    stroke-dashoffset: 400;
-  }
-}
-@keyframes circleSass {
-  to {
-    stroke-dashoffset: 410;
-  }
-}
-@keyframes circleJs {
-  to {
-    stroke-dashoffset: 450;
   }
 }/*# sourceMappingURL=style.css.map */
