@@ -441,10 +441,12 @@ main, #pageContainer {
     display: none;
   }
 }
+/* Ici commence la mise en forme de la page competence */
 .boxDevWeb {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 70%;
+  margin: auto;
 }
 
 .comptDev {
@@ -455,6 +457,11 @@ main, #pageContainer {
 .box {
   width: 100px;
   position: relative;
+}
+
+.boxMainSupp, .boxBur {
+  width: 70%;
+  margin: auto;
 }
 
 svg {
