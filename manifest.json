@@ -1,7 +1,7 @@
 {
   "name": "CelticWebCraft - Portfolio de Béatrice Couderc",
   "short_name": "CelticWebCraft",
-  "start_url": "index.html",
+  "start_url": "/celticwebcraft/",
   "display": "standalone",
   "theme_color": "#f0c808",
   "lang": "fr",
@@ -9,12 +9,14 @@
     {
       "src": "images/icones/icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "backgroud_color": "#2F6265"
     },
     {
       "src": "images/icones/icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "backgroud_color": "#2F6265"
     }
   ]
 }
