@@ -5,7 +5,7 @@
 $colors: (
     "black": #333,
     "white": #FFF,
-    "grise":#bbbbbb,
+    "grise":rgb(187, 187, 187),
     "fond" : #404040,
     "or": rgb(235, 180, 44),
     "ombre":rgba(5, 5, 5, 0.8),
@@ -20,11 +20,12 @@ $colors: (
     "circle1": #53898d8c,
     "navResponsive": #2F6265,
     "confirmationMessage": #14550f,
-    "degrad2": #164C50,
+    "degrad2": #164c50,
     "degrad1": #082527,
     "colorTest6": #341513,
     "circle": #5627244d,
-    "colorTest8": #341322
+    "colorTest8": #341322,
+    "colorTest9": #082426,
 );
 
 //définition de la taille des caractères
@@ -61,3 +62,4 @@ $default-spaces: (
 );
 
 $default-radius : 5px;
+

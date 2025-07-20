@@ -35,15 +35,15 @@ h1, h2 {
 
 h3 {
   font-size: 0.8rem;
-  color: #bbbbbb;
-  margin: 0 0 0 10px;
+  color: rgb(187, 187, 187);
+  margin: 0;
 }
 
 #container {
   min-height: 100vh;
   height: 100%;
   background: #082527;
-  background: linear-gradient(45deg, #082527 0%, #164C50 62%, #082527 100%);
+  background: linear-gradient(45deg, #082527 0%, #164c50 62%, #082527 100%);
 }
 
 #pageWrapper {
@@ -81,8 +81,9 @@ main, #pageContainer {
   align-items: center;
 }
 #mainHeader img {
-  width: 250px;
+  width: 400px;
   height: auto;
+  margin: 20px;
 }
 
 #navigation {
@@ -98,7 +99,7 @@ main, #pageContainer {
 }
 #navigation a:hover {
   color: #FFF;
-  text-shadow: 2px 1px 2px #bbbbbb;
+  text-shadow: 2px 1px 2px rgb(187, 187, 187);
 }
 #navigation li {
   display: inline;
@@ -248,13 +249,13 @@ main, #pageContainer {
 #contact .form-group label {
   margin-bottom: 0.5rem;
   font-weight: bold;
-  color: #bbbbbb;
+  color: rgb(187, 187, 187);
 }
 #contact .form-group input[type=text],
 #contact .form-group input[type=email],
 #contact .form-group textarea {
   padding: 0.8rem;
-  border: 1px solid #bbbbbb;
+  border: 1px solid rgb(187, 187, 187);
   border-radius: 8px;
   font-size: 1rem;
   resize: vertical;
@@ -357,7 +358,7 @@ svg {
 }
 svg circle {
   fill: none;
-  stroke: #bbbbbb;
+  stroke: rgb(187, 187, 187);
   stroke-width: 5px;
   transform: translate(10px, 10px);
   stroke-dasharray: 500;
@@ -392,7 +393,7 @@ span.texte {
   left: 50%;
   font-size: polices();
   font-weight: 300;
-  color: #bbbbbb;
+  color: rgb(187, 187, 187);
 }
 span.texte.html {
   transform: translate(-25px, -9px);
@@ -438,6 +439,7 @@ span.texte.js {
   }
   #mainHeader img {
     width: 40%;
+    margin: 10px;
   }
   /* Bouton Close visible */
   #closeBtn {
