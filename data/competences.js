@@ -49,4 +49,4 @@ fetch('competences.json')
     });
   })
   .catch(error => console.error('Erreur lors du chargement des compétences :', error));
-y
+

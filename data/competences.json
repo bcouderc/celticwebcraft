@@ -30,6 +30,11 @@
     {
         "id":"4",
         "titre":"Atouts",
-        "liste":"Autonomie & Adaptabilité, sens de l’organisation & rigueur, réactivité & persévérance, bonne communication & pédagogie"
+        "liste":[
+            "Autonomie & Adaptabilité",
+            "sens de l’organisation & rigueur",
+            "réactivité & persévérance",
+            "bonne communication & pédagogie"
+        ]
     }
 ]

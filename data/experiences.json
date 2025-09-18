@@ -8,17 +8,22 @@
             "Support aux utilisateurs et résolution des incidents",
             "Masterisation et configuration de postes de travail",
             "Suivi des interventions et documentation",
-            "Gestion du déménagement du site",
+            "Création de répertoire et attribution de droit dans l'active Directory",
+            "Création de compte de messagerie sur Microsoft Exchange",
+            "Création de liste de diffusion (Exchange ou AD)",
+            "Création d'équipe Team's",
             "Organisation et mise en oeuvre du renouvellement du parc informatique en totale autonomie (70 machines)"
         ],
         "titreComp": "Compétences mise en oeuvre",
         "competences": [
             "Utilisation d’un outil ITSM (OneClarilog)",
+            "Utilisation de l'Active Directory, Microsoft Exchange, O365",
             "Diagnostic et résolution de problèmes informatiques",
             "Gestion des tickets d’incidents",
             "Installation et configuration de systèmes d’exploitation",
+            "Brassage de prise réseau",
             "Relation client et communication",
-            "Autonomie et sens de l’organisation"
+            "Autonomie, rigueur et sens de l’organisation"
         ]
     },
 
@@ -34,9 +39,12 @@
         "titreComp": "Compétences mise en oeuvre",
         "competences": [
             "Utilisation d’un outil ITSM (GLPI)",
-            "Déploiement de postes via image système",
+            "Gestion des tickets d’incidents",
+            "Installation et configuration de systèmes d’exploitation",
+            "Utilisation de l'Active Directory, Microsoft Exchange",
             "Gestion et mise à jour d’un parc informatique",
-            "Support utilisateur"
+            "Relation client et communication",
+            "Autonomie, rigueur et sens de l’organisation"
         ]
     },
 
@@ -46,14 +54,16 @@
         "poste": "Cerfrance Côte-d'Armor, Plérin - Technicienne Hotline",
         "missions": [
             "Installation et maintenance de l’application ISACOMPTA",
-            "Support aux clients et employés sur le matériel et les logiciels",
-            "Dépannage à distance et gestion des demandes d’impression"
+            "Support de proximité des clients et employés sur le matériel et les logiciels",
+            "Gestion des demandes d’impression",
+            "Déploiement et configuration des postes de travail"
         ],
         "titreComp": "Compétences mise en oeuvre",
         "competences": [
             "Assistance technique téléphonique et à distance",
             "Utilisation d’un outil ITSM (GLPI)",
             "Installation et configuration de logiciels métiers",
+            "Installation et configuration de systèmes d’exploitation",
             "Dépannage matériel et logiciel",
             "Relation client et pédagogie"
         ]
@@ -64,16 +74,31 @@
         "date": "Avril 2011 - Octobre 2021",
         "poste": "Association Logement Jeunes Travailleurs, Paris - Assistante de Direction",
         "missions": [
-            "Gestion et suivi administratif des dossiers et sinistres",
-            "Mise à jour et archivage de documents",
-            "Rédaction et mise en forme de documents"
+            "Gestion et suivi administratif des dossiers de sinistres",
+            "Transmission des factures liées aux sinistres auprés du courtier en assurance",
+            "Gestion et suivi des demandes de subventions (Ville de Paris, AGLS, FONJEP, CAF)",
+            "Mise à jour de l'annuaire des partenaires",
+            "Gestion des commandes (fourniture de bureau, linge de maison, entretien, petit matériel informatique, petit matériel de maintenance)",
+            "Mise à jour et archivage des documents",
+            "Rédaction et mise en forme des rapports d'activités de l'ensemble des résidences parisiennes",
+            "Production de statistiques au profit des bailleurs sociaux",
+            "Rédaction des comptes rendus de réunions hebdomadaires",
+            "Mise à jour de la base de données de suivi des salariés",
+            "Mise à jour et suivi des outils de pilotage et tableaux de bord et réalisation des différents rapports",
+            "Préparation des dossiers des résidences destinés aux différents partenaires sociaux",
+            "Participation à l'organisation d'évènements",
+            "Accueil des entreprises et des partenaires sociaux",
+            "Contribution à la vie quotidienne de la résidence",
+            "Proposition et production d'outils de suivi et de procédures"
         ],
         "titreComp": "Compétences mise en oeuvre",
         "competences": [
             "Gestion administrative et suivi de dossiers",
             "Organisation et classement de documents",
             "Maîtrise des outils bureautiques (Pack Office, Excel avancé)",
-            "Communication et coordination interne"
+            "Communication et coordination interne",
+            "Réactivité et esprit d'équipe",
+            "Autonomie, rigueur et sens de l’organisation"
         ]
     },
 
@@ -91,7 +116,9 @@
             "Administration Active Directory (création de comptes, intégration au domaine)",
             "Déploiement de postes et gestion des images système",
             "Support et assistance aux utilisateurs",
-            "Rédaction de documentation technique"
+            "Rédaction de documentation technique",
+            "Réactivité et esprit d'équipe",
+            "Autonomie, rigueur et sens de l’organisation"
         ]
     },
 
@@ -108,7 +135,8 @@
         "competences": [
             "Saisie rapide et contrôle des données",
             "Utilisation de bases de données SQL",
-            "Vérification et correction des erreurs"
+            "Vérification et correction des erreurs",
+            "Autonomie, rigueur et sens de l’organisation"
         ]
     }
 ]

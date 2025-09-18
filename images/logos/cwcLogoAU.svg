@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
-   sodipodi:docname="logoCwcAu.svg"
+   sodipodi:docname="cwcLogoAU.svg"
    inkscape:export-filename="icone cwc.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
@@ -32,15 +32,15 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="0.13"
-     inkscape:cx="2938.4615"
-     inkscape:cy="665.38462"
+     inkscape:zoom="1.04"
+     inkscape:cx="523.55769"
+     inkscape:cy="392.78846"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
-     inkscape:window-x="1912"
+     inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g91"
+     inkscape:current-layer="g93"
      inkscape:export-bgcolor="#13313300"
      inkscape:lockguides="false">
     <inkscape:grid
@@ -111,7 +111,7 @@
      style="display:inline">
     <g
        id="g90"
-       transform="matrix(1.0650383,0.99316429,-0.99316429,1.0650383,81.422526,-112.65043)"
+       transform="matrix(1.0256385,1.0338024,-1.0338024,1.0256385,88.615905,-112.16864)"
        inkscape:label="logo">
       <g
          inkscape:groupmode="layer"
