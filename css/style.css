@@ -304,7 +304,7 @@ main, #pageContainer {
   opacity: 0.6;
 }
 #contact button:hover:not(:disabled) {
-  background-color: #d09a14;
+  background-color: rgb(208.2597402597, 153.974025974, 19.7402597403);
 }
 
 .confirmationMessage {
