@@ -22,9 +22,9 @@ fetch('data/menu.json')
       }
       // Transforme le nom de la page en nom de fichier :
       // "Accueil" → "../accueil.html" (remonte d’un dossier dans l’arborescence)
-      const fileName = '/celticwebcraft/' + pageName.toLowerCase().replace(/\s+/g, '') + '.html';
+      const fileName = pageName.toLowerCase().replace(/\s+/g, '') + '.html';
+      //const fileName = '../' + pageName.toLowerCase().replace(/\s+/g, '') + '.html';
       // Définit le texte affiché du lien (le nom de la page)
-
 
       // Définit l’attribut href du lien pour qu’il pointe vers la bonne page
       a.href = fileName;
