@@ -19,10 +19,10 @@ fetch('data/menu.json')
       // "Accueil" → "../accueil.html" (remonte d’un dossier dans l’arborescence)
 
       // UTILISER LA LIGNE CI-DESSOUS POUR LA PUBLICATION EN LIGNE SUR GITHUB
-      //const fileName = pageName.toLowerCase().replace(/\s+/g, '') + '.html';
+      const fileName = pageName.toLowerCase().replace(/\s+/g, '') + '.html';
 
       //UTILISER CETTE LIGNE POUR LIVE SERVER
-      const fileName = '../' + pageName.toLowerCase().replace(/\s+/g, '') + '.html';
+      //const fileName = '../' + pageName.toLowerCase().replace(/\s+/g, '') + '.html';
       // Définit le texte affiché du lien (le nom de la page)
 
       a.href = fileName; // Définit l’attribut href du lien pour qu’il pointe vers la bonne page
