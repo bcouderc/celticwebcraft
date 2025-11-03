@@ -90,7 +90,7 @@ main, #pageContainer {
   display: flex;
   gap: 30px;
   padding: 0;
-  margin: 0 10px;
+  margin: 20px;
 }
 #navigation a {
   text-decoration: none;
@@ -104,7 +104,7 @@ main, #pageContainer {
 #navigation li {
   display: inline;
   font-family: "zen dots";
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 #openBtn, #closeBtn {
@@ -324,7 +324,7 @@ main, #pageContainer {
 #pdpContent a {
   text-decoration: none;
   color: #FFF;
-  font-size: 0.8rem;
+  font-size: 1.5rem;
   margin: 0 10px 0;
   text-align: center;
 }
@@ -428,7 +428,7 @@ span.texte.js {
     stroke-dashoffset: 450;
   }
 }
-/* Début de la mise en forme du responsive.scss */
+/* Début de la mise en forme du responsive.scss - Tablette (758px) */
 @media screen and (max-width: 950px) {
   p {
     font-size: 0.9rem;
@@ -436,6 +436,9 @@ span.texte.js {
   /* Sidenav menu */
   #navigation a {
     color: #133133;
+  }
+  #navigation li {
+    font-size: 1.2rem;
   }
   #mainHeader img {
     width: 40%;
@@ -510,7 +513,7 @@ span.texte.js {
   .sidenav.active {
     right: 0;
   }
-  /* Début de la mise en forme de la page index */
+  /* Mise en forme de la page index */
   #pageTitre {
     flex-direction: column;
   }

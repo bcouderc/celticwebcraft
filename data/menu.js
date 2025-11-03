@@ -8,34 +8,26 @@ fetch('data/menu.json')
     const navContainer = document.getElementById('navigation');
 
     // Parcourt chaque valeur du JSON (ex: "Accueil", "A propos", etc.)
-    Object.values(data).forEach(pageName => {
-      // Crée un élément <li> pour la liste
-      const li = document.createElement('li');
-
-      // Crée un élément <a> pour le lien
-      const a = document.createElement('a');
-
+    Object.values(data).forEach(pageName => { 
+      const li = document.createElement('li'); // Crée un élément <li> pour la liste 
+      const a = document.createElement('a'); // Crée un élément <a> pour le lien
       a.textContent = pageName;
-
       if (pageName === "Accueil") {
         pageName = "index";
       }
       // Transforme le nom de la page en nom de fichier :
       // "Accueil" → "../accueil.html" (remonte d’un dossier dans l’arborescence)
-      const fileName = pageName.toLowerCase().replace(/\s+/g, '') + '.html';
-      //const fileName = '../' + pageName.toLowerCase().replace(/\s+/g, '') + '.html';
+
+      // UTILISER LA LIGNE CI-DESSOUS POUR LA PUBLICATION EN LIGNE SUR GITHUB
+      //const fileName = pageName.toLowerCase().replace(/\s+/g, '') + '.html';
+
+      //UTILISER CETTE LIGNE POUR LIVE SERVER
+      const fileName = '../' + pageName.toLowerCase().replace(/\s+/g, '') + '.html';
       // Définit le texte affiché du lien (le nom de la page)
 
-      // Définit l’attribut href du lien pour qu’il pointe vers la bonne page
-      a.href = fileName;
-
-
-
-      // Ajoute le lien à l’intérieur du <li>
-      li.appendChild(a);
-
-      // Ajoute le <li> au conteneur <ul>
-      navContainer.appendChild(li);
+      a.href = fileName; // Définit l’attribut href du lien pour qu’il pointe vers la bonne page
+      li.appendChild(a); // Ajoute le lien à l’intérieur du <li>
+      navContainer.appendChild(li); // Ajoute le <li> au conteneur <ul>
     });
   })
   // Si une erreur survient (par exemple le fichier JSON introuvable), on l’affiche dans la console
