@@ -43,14 +43,14 @@ h3 {
   min-height: 100vh;
   height: 100%;
   box-sizing: border-box;
-  background: #082527;
-  background: linear-gradient(45deg, #082527 0%, #164c50 62%, #082527 100%);
 }
 
 #pageWrapper {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background: #082527;
+  background: linear-gradient(45deg, #082527 0%, #164c50 62%, #082527 100%);
 }
 
 #imgRsxSociaux {

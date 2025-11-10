@@ -36,17 +36,17 @@ h3 {
     min-height: 100vh;
     height: 100%;
     box-sizing: border-box;
+}
+
+#pageWrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; // garantit que le body occupe tout l’écran
     //créé un fond dégradé
     background: color("degrad1");
     background: -moz-linear-gradient(45deg, color("degrad1") 0%, color("degrad2") 62%, color("degrad1") 100%);
     background: -webkit-linear-gradient(45deg,color("degrad1") 0%, color("degrad2") 62%, color("degrad1") 100%);
     background: linear-gradient(45deg, color("degrad1") 0%, color("degrad2") 62%, color("degrad1") 100%);
-}
-
-#pageWrapper {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; // garantit que le body occupe tout l’écran
 }
 
 #imgRsxSociaux {
