@@ -35,6 +35,7 @@ h3 {
 #container {
     min-height: 100vh;
     height: 100%;
+    box-sizing: border-box;
     //créé un fond dégradé
     background: color("degrad1");
     background: -moz-linear-gradient(45deg, color("degrad1") 0%, color("degrad2") 62%, color("degrad1") 100%);
@@ -46,10 +47,6 @@ h3 {
   display: flex;
   flex-direction: column;
   min-height: 100vh; // garantit que le body occupe tout l’écran
-}
-
-main, #pageContainer {
-  flex: 1; // pousse le footer vers le bas si pas assez de contenu
 }
 
 #imgRsxSociaux {

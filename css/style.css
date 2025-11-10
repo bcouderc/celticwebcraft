@@ -42,6 +42,7 @@ h3 {
 #container {
   min-height: 100vh;
   height: 100%;
+  box-sizing: border-box;
   background: #082527;
   background: linear-gradient(45deg, #082527 0%, #164c50 62%, #082527 100%);
 }
@@ -50,10 +51,6 @@ h3 {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-}
-
-main, #pageContainer {
-  flex: 1;
 }
 
 #imgRsxSociaux {
@@ -79,6 +76,8 @@ main, #pageContainer {
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
+  height: 60px;
+  position: fixed;
 }
 #mainHeader img {
   width: 400px;
@@ -113,13 +112,9 @@ main, #pageContainer {
 
 #pageContainer {
   max-width: 1100px;
-}
-
-#pageContainer {
-  max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 5rem 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -324,7 +319,7 @@ main, #pageContainer {
 #pdpContent a {
   text-decoration: none;
   color: #FFF;
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin: 0 10px 0;
   text-align: center;
 }
@@ -469,7 +464,6 @@ span.texte.js {
   #openBtn {
     display: block;
     position: absolute;
-    top: 20px;
     right: 20px;
     z-index: 2;
   }

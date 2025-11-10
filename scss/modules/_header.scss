@@ -4,6 +4,8 @@
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
+    height: 60px;
+    position: fixed;
     & img{
         width: 400px;
         height: auto;
@@ -36,15 +38,11 @@
     display: none;
 }
 
-#pageContainer{
-    max-width: 1100px;
-}
-
 #pageContainer {
-  max-width: 1200px;         // Largeur maximale pour écran large
+  max-width: 1100px;         // Largeur maximale pour écran large
   width: 100%;               // S’adapte aux petits écrans
   margin: 0 auto;            // Centrage horizontal automatique
-  padding: 2rem 1rem;        // Un peu de respirations sur les côtés
+  padding: 5rem 1rem;        // Un peu de respirations sur les côtés
   display: flex;
   flex-direction: column;
   align-items: center;       // Centre les enfants horizontalement
