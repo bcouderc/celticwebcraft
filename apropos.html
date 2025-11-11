@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-
+    
     <meta name="description" content="Portfolio de Béatrice Couderc, technicienne informatique polyvalente et développeuse front-end freelance.">
     <meta name="keywords" content="développement web, front-end, freelance, portfolio, Béatrice Couderc, CelticWebCraft">
     <meta name="author" content="Béatrice Couderc">
@@ -19,29 +19,28 @@
 </head>
 <body>
     <div id="pageWrapper">
-        <div id="container">
-            <header id="mainHeader"> <!--Ici se trouve l'entête de la page-->
-                <div>
-                    <img src="images/logos/NewLogoCwcAu.png" alt="logo CelticWebCraft"></img>
-                </div>
-                <div id="mySidenav" class="sidenav">
-                    <nav>
-                        <button id="closeBtn" class="close" aria-label="Fermer le menu">×</button>
-                        <ul id="navigation">
-                        </ul>
-                    </nav>
+        <header id="mainHeader"> <!--Ici se trouve l'entête de la page-->
+            <div>
+                <img src="images/logos/NewLogoCwcAu.png" alt="logo CelticWebCraft"></img>
+            </div>
+            <div id="mySidenav" class="sidenav">
+                <nav>
+                    <button id="closeBtn" class="close" aria-label="Fermer le menu">X</button>
+                    <ul id="navigation">
+                        <!-- Menu mis à jour dynamiquement via le script menu-->
+                    </ul>
+                </nav>
                 </div><!--Fin siedeNav-->
-            </header><!-- Fin du header-->
-
             <button id="openBtn" aria-label="Ouvrir le menu">
                 <span class="burger-icon">
                     <span></span>
                     <span></span>
                     <span></span>
                 </span>
-            </button><!--Fin du menu burger-->
-            <div id="pageContainer">
-            <!-- Ici commence le contenu de la page apropos.html -->
+            </button><!--Fin du menu burger-->            
+        </header><!-- Fin du header--> 
+        <div id="pageContainer">                
+<!-- Ici commence le contenu de la page apropos.html -->
 
                 <section id="pageContent">
                     <main>
@@ -144,28 +143,26 @@
                     </div><!--Fin de boxAtouts-->
 
             <!-- Ici se termine le contenu de la page competences.html -->
-
             </div> <!-- Fin de pageContainer -->
 
-            <section id="imgRsxSociaux">
-                <a href="https://www.linkedin.com/in/beatrice-couderc" target="_blank" aria-label="LinkedIn">
-                    <img src="images/logos/reseaux sociaux/linkedin-1.png" alt="Lien vers mon profil linkedin">
-                </a>
-                <a href="https://github.com/bcouderc" target="_blank" aria-label="GitHub">
-                    <img src="images/logos/reseaux sociaux/github_v1.png" alt="Lien vers GitHub">
-                </a>
-            </section>
-
-            <footer id="pdpContent">
-                <a href="experience.html">&copy; 2025 - CelticWebCraft</a>
-                <a href="mentions-legales.html">Mentions légales</a>
-                <a href="conditions-generales.html">Conditions générales</a>
+        <div id="pdpContent">
+            <footer id="footer">
+                <section id="imgRsxSociaux">
+                    <a href="https://www.linkedin.com/in/beatrice-couderc" target="_blank" aria-label="LinkedIn">
+                        <img src="images/logos/reseaux sociaux/linkedin-1.png" alt="Lien vers mon profil linkedin">
+                    </a>
+                    <a href="https://github.com/bcouderc" target="_blank" aria-label="GitHub">
+                        <img src="images/logos/reseaux sociaux/github_v1.png" alt="Lien vers GitHub">
+                    </a>
+                </section>
+                <section id="liensGeneraux">
+                    <a href="experience.html">&copy; 2025 - CelticWebCraft</a>
+                    <a href="mentions-legales.html">Mentions légales</a>
+                    <a href="conditions-generales.html">Conditions générales</a>
+                </section>
             </footer><!--  Fin du pied de page-->
-        </div> <!-- Fin de container -->
+        </div>
+
     </div><!-- Fin de pageWrapper-->
 </body>
 </html>
-
-
-
-

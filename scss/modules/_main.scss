@@ -32,10 +32,10 @@ h3 {
     color: color("grise");
     margin: 0;
 }
-#container {
-    min-height: 100vh;
-    height: 100%;
-    box-sizing: border-box;
+#pageContainer {
+    position: relative;
+    top: 10px;
+    z-index: 50;
 }
 
 #pageWrapper {
