@@ -31,8 +31,7 @@ $colors: (
 //définition de la taille des caractères
 $default-font-size: 1rem;
 $font-sizes: (
-    "xxs": $default-font-size * 0.3
-,
+    "xxs": $default-font-size * 0.5,
     "xs": $default-font-size * 0.8,
     "sm": $default-font-size * 0.9,
     "md": $default-font-size,
