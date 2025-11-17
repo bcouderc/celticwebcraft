@@ -8,7 +8,10 @@ body {
     max-width: 1800px;
     font-size: police("md");
     font-family: "Josefin Sans", Verdana, sans-serif;
-    background-color: color("fond");
+    background: color("degrad1");
+    background: -moz-linear-gradient(45deg, color("degrad1") 0%, color("degrad2") 62%, color("degrad1") 100%);
+    background: -webkit-linear-gradient(45deg,color("degrad1") 0%, color("degrad2") 62%, color("degrad1") 100%);
+    background: linear-gradient(45deg, color("degrad1") 0%, color("degrad2") 62%, color("degrad1") 100%);
     margin: auto;
 }
 
@@ -42,11 +45,6 @@ h3 {
     display: flex;
     flex-direction: column;
     min-height: 100vh; // garantit que le body occupe tout l’écran
-    //créé un fond dégradé
-    background: color("degrad1");
-    background: -moz-linear-gradient(45deg, color("degrad1") 0%, color("degrad2") 62%, color("degrad1") 100%);
-    background: -webkit-linear-gradient(45deg,color("degrad1") 0%, color("degrad2") 62%, color("degrad1") 100%);
-    background: linear-gradient(45deg, color("degrad1") 0%, color("degrad2") 62%, color("degrad1") 100%);
 }
 
 #imgRsxSociaux {
