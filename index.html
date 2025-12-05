@@ -18,19 +18,18 @@
     <title>Portfolio de Béatrice COUDERC</title>
 </head>
 <body>
-    <div id="pageWrapper">
-        <header id="mainHeader"> <!--Ici se trouve l'entête de la page-->
-            <div>
+    <header id="mainHeader"> <!--Ici se trouve l'entête de la page-->
+            <section>
                 <img src="images/logos/NewLogoCwcAu.png" alt="logo CelticWebCraft"></img>
-            </div>
-            <div id="mySidenav" class="sidenav">
+            </section>
+            <section id="mySidenav" class="sidenav">
                 <nav>
                     <button id="closeBtn" class="close" aria-label="Fermer le menu">X</button>
                     <ul id="navigation">
                         <!-- Menu mis à jour dynamiquement via le script menu-->
                     </ul>
                 </nav>
-                </div><!--Fin siedeNav-->
+            </section><!--Fin siedeNav-->
             <button id="openBtn" aria-label="Ouvrir le menu">
                 <span class="burger-icon">
                     <span></span>
@@ -38,7 +37,8 @@
                     <span></span>
                 </span>
             </button><!--Fin du menu burger-->            
-        </header><!-- Fin du header--> 
+        </header><!-- Fin du header-->
+    <div id="pageWrapper"> 
         <div id="pageContainer">                
             <!-- Ici commence le contenu de la page index.html -->
 
@@ -55,8 +55,8 @@
 
             <!-- Ici se termine le contenu de la page index.html -->
             </div> <!-- Fin de pageContainer -->
-
-        <div id="pdpContent">
+    </div><!-- Fin de pageWrapper-->
+    <div id="pdpContent">
             <footer id="footer">
                 <section id="imgRsxSociaux">
                     <a href="https://www.linkedin.com/in/beatrice-couderc" target="_blank" aria-label="LinkedIn">
@@ -73,7 +73,5 @@
                 </section>
             </footer><!--  Fin du pied de page-->
         </div>
-
-    </div><!-- Fin de pageWrapper-->
 </body>
 </html>

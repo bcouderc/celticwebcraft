@@ -17,9 +17,16 @@
         }
     }
 
-    #mainHeader img{
-        width: 40%; // réduit la taille du logo en mode responsive
-        margin: 10px;
+    #mainHeader {
+        height: 50px;
+        & img{
+            width: 40%; // réduit la taille du logo en mode responsive
+            margin: 10px;
+        }
+    }
+
+    #pageContainer {
+        padding: 5rem 1rem;
     }
 
     /* Bouton Close visible */

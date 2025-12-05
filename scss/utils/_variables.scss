@@ -8,7 +8,8 @@ $colors: (
     "grise":rgb(187, 187, 187),
     "fond" : #404040,
     "or": rgb(235, 180, 44),
-    "ombre":rgba(5, 5, 5, 0.8),
+    "ombre":#000000b4,
+    "headerPDP":#000,
     
     "degrad1_":#202020,
     "degrad2_":#6D6D6D,
@@ -52,7 +53,7 @@ $heading-font-sizes:(
 
 //Définition de la taille des espaces dans le site
 $default-spaces: 1rem;
-$default-spaces: (
+$spaces-sizes: (
     0: 0,
     1: $default-spaces * 0.25,
     2: $default-spaces * 0.5,
