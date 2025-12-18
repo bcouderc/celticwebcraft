@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="description" content="Portfolio de Béatrice Couderc, technicienne informatique polyvalente et développeuse front-end freelance.">
+    <meta name="keywords" content="développement web, front-end, freelance, portfolio, Béatrice Couderc, CelticWebCraft">
+    <meta name="author" content="Béatrice Couderc">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="manifest" href="manifest.json">
+    <!-- Une PWA, ou Progressive Web App, est un site web qui se comporte comme une application mobile. Placé à la racine du site ce fichier permet de décrire l'application aux navigateurs (Chrome, Firefox, etc.)-->
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="data/menuBurger.js" defer></script>
+    <script src="data/menu.js"></script>
+    <script src="data/experiences.js" defer></script>
+    <title>Portfolio de Béatrice COUDERC</title>
+</head>
+<body>
+    <div id="pageWrapper">
+        <header id="mainHeader"> <!--Ici se trouve l'entête de la page-->
+            <div>
+                <img src="images/logos/NewLogoCwcAu.png" alt="logo CelticWebCraft"></img>
+            </div>
+            <div id="mySidenav" class="sidenav">
+                <nav>
+                    <button id="closeBtn" class="close" aria-label="Fermer le menu">X</button>
+                    <ul id="navigation">
+                        <!-- Menu mis à jour dynamiquement via le script menu-->
+                    </ul>
+                </nav>
+            </div><!--Fin siedeNav-->
+            <button id="openBtn" aria-label="Ouvrir le menu">
+                <span class="burger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </button><!--Fin du menu burger-->            
+        </header><!-- Fin du header--> 
+        <div id="pageContainer">                
+            <!-- Ici commence le contenu de la page x.html -->
+            <section id="expPro">
+                <img src="" alt="" id="expImage" class="vignette">
+                <h1>Expériences professionnelles</h1>
+            </section>
+            <section id="expZone">
+                <!-- Ici on insère le h2 h3 et les li concernant les missions-->
+            </section>
+            <section>
+                <h3>Compétences mises en oeuvre</h3>
+                <div id="compZone">
+                    <!-- Ici on insère le h3 et les li concernant les compétences-->
+                </div>
+            </section>
+            <!-- Ici se termine le contenu de la page x.html -->
+            </div> <!-- Fin de pageContainer -->
+
+        <div id="pdpContent">
+            <footer id="footer">
+                <section id="imgRsxSociaux">
+                    <a href="https://www.linkedin.com/in/beatrice-couderc" target="_blank" aria-label="LinkedIn">
+                        <img src="images/logos/reseaux sociaux/linkedin-1.png" alt="Lien vers mon profil linkedin">
+                    </a>
+                    <a href="https://github.com/bcouderc" target="_blank" aria-label="GitHub">
+                        <img src="images/logos/reseaux sociaux/github_v1.png" alt="Lien vers GitHub">
+                    </a>
+                </section>
+                <section id="liensGeneraux">
+                    <a href="experience.html">&copy; 2025 - CelticWebCraft</a>
+                    <a href="mentions-legales.html">Mentions légales</a>
+                    <a href="conditions-generales.html">Conditions générales</a>
+                </section>
+            </footer><!--  Fin du pied de page-->
+        </div>
+
+    </div><!-- Fin de pageWrapper-->
+</body>
+</html>

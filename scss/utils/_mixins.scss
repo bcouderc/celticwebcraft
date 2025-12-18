@@ -15,3 +15,10 @@
     width: 100%;
     margin: 0;
 }
+
+@mixin vignetteExperience {
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid color("degrad1_");
+    box-shadow: 2px 2px 10px 2px color("ombre");
+}

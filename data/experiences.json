@@ -1,34 +1,38 @@
 [
     {
         "id": "1",
+        "image": "images/logos/experiences/Logo-helpline.png",
         "date": "2024 à aujourd'hui",
         "poste": "Technicienne de proximité",
         "missions": [
             "Gestion et maintenance du parc informatique",
             "Support aux utilisateurs et résolution des incidents",
             "Masterisation et configuration de postes de travail",
-            "Suivi des interventions et documentation",
+            "Suivi et gestion des interventions (One by Clarilog)",
+            "Suivi et mise à jour du parc informatique (One by Clarilog)",
             "Création de répertoire et attribution de droit dans l'active Directory",
             "Création de compte de messagerie sur Microsoft Exchange",
             "Création de liste de diffusion (Exchange ou AD)",
             "Création d'équipe Team's",
-            "Organisation et mise en oeuvre du renouvellement du parc informatique en totale autonomie (70 machines)"
+            "Organisation et mise en oeuvre du renouvellement du parc informatique en totale autonomie (80 machines)"
         ],
-        "titreComp": "Compétences mise en oeuvre",
         "competences": [
-            "Utilisation d’un outil ITSM (OneClarilog)",
+            "Utilisation d’un outil ITSM (One by Clarilog)",
             "Utilisation de l'Active Directory, Microsoft Exchange, O365",
             "Diagnostic et résolution de problèmes informatiques",
             "Gestion des tickets d’incidents",
+            "Gestion des stocks",
+            "Gestion du parc",
             "Installation et configuration de systèmes d’exploitation",
             "Brassage de prise réseau",
-            "Relation client et communication",
+            "Relation client et sens de la communication",
             "Autonomie, rigueur et sens de l’organisation"
         ]
     },
 
     {
         "id": "2",
+        "image": "images/logos/experiences/Logo-Experis.png",
         "date": "Février 2023 - Avril 2023",
         "poste": "Fondation Bon Sauveur, Bégard - Technicienne Système et Réseau",
         "missions": [
@@ -36,7 +40,6 @@
             "Mise à jour et renouvellement du parc informatique",
             "Déploiement et configuration des postes de travail"
         ],
-        "titreComp": "Compétences mise en oeuvre",
         "competences": [
             "Utilisation d’un outil ITSM (GLPI)",
             "Gestion des tickets d’incidents",
@@ -50,6 +53,7 @@
 
     {
         "id": "3",
+        "image": "images/logos/experiences/Logo-Cerfrance.png",
         "date": "Septembre 2022 - Novembre 2022",
         "poste": "Cerfrance Côte-d'Armor, Plérin - Technicienne Hotline",
         "missions": [
@@ -58,7 +62,6 @@
             "Gestion des demandes d’impression",
             "Déploiement et configuration des postes de travail"
         ],
-        "titreComp": "Compétences mise en oeuvre",
         "competences": [
             "Assistance technique téléphonique et à distance",
             "Utilisation d’un outil ITSM (GLPI)",
@@ -71,6 +74,7 @@
 
     {
         "id": "4",
+        "image": "images/logos/experiences/aljt-logo.png",
         "date": "Avril 2011 - Octobre 2021",
         "poste": "Association Logement Jeunes Travailleurs, Paris - Assistante de Direction",
         "missions": [
@@ -91,7 +95,6 @@
             "Contribution à la vie quotidienne de la résidence",
             "Proposition et production d'outils de suivi et de procédures"
         ],
-        "titreComp": "Compétences mise en oeuvre",
         "competences": [
             "Gestion administrative et suivi de dossiers",
             "Organisation et classement de documents",
@@ -104,6 +107,7 @@
 
     {
         "id": "5",
+        "image": "images/logos/experiences/logo-AdT-fond-cam-CE-1.png",
         "date": "Mars 1999 - Avril 2011",
         "poste": "Armée de Terre, Paris - Technicienne de Maintenance Informatique",
         "missions": [
@@ -111,7 +115,6 @@
             "Création et gestion des comptes utilisateurs",
             "Support aux utilisateurs et gestion des tickets d’intervention"
         ],
-        "titreComp": "Compétences mise en oeuvre",
         "competences": [
             "Administration Active Directory (création de comptes, intégration au domaine)",
             "Déploiement de postes et gestion des images système",
@@ -124,6 +127,7 @@
 
    {
         "id": "6",
+        "image": "images/logos/experiences/logo-AdT-fond-cam-CE-1.png",
         "date": "Septembre 1995 - Mars 1999",
         "poste": "Armée de Terre, Paris - Opérateur de saisie",
         "missions": [
@@ -131,7 +135,6 @@
             "Extraction et contrôle des données via des requêtes SQL",
             "Contrôle des données pour le versement de la paie"
         ],
-        "titreComp": "Compétences mise en oeuvre",
         "competences": [
             "Saisie rapide et contrôle des données",
             "Utilisation de bases de données SQL",

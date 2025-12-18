@@ -1,5 +1,4 @@
 /* Début de la mise en forme de la page experiences */
-@import "dots";
 
 #titleContent h2{
     color: color("or");
@@ -29,3 +28,7 @@
     color: color();
 }
 
+#title > img {
+    @include vignetteExperience;
+
+}
