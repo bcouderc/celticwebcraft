@@ -149,4 +149,10 @@
     @include positionMainResponsive
 }
 
+
+/* Mise en page de la page expériences*/
+#expPro > h1 {
+    font-size: police("lg");
+}
+
 } // fin de @media

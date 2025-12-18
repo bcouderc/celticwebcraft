@@ -559,46 +559,12 @@ span.texte.js {
     width: 100%;
     margin: 0;
   }
+  /* Mise en page de la page expériences*/
+  #expPro > h1 {
+    font-size: 1.2rem;
+  }
 }
 /* Début de la mise en forme de la page experiences */
-#titleContent h2 {
-  color: rgb(235, 180, 44);
-}
-
-#expComp {
-  display: flex;
-  flex-direction: column;
-  width: auto;
-  justify-content: space-around;
-  min-height: 35vh;
-}
-
-#navContent, #titleContent, #expCompContent, #navItems, #pdpContent {
-  display: flex;
-  flex-basis: auto;
-}
-
-#expCompContent {
-  display: flex;
-  flex-direction: row;
-}
-
-#experience, #competences {
-  flex-direction: column;
-}
-
-#experience, #competences li {
-  color: #FFF;
-}
-
-#title > img {
-  display: block;
-  width: 100px;
-  border-radius: 50%;
-  border: 5px solid #202020;
-  box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.7058823529);
-}
-
 .vignette {
   display: block;
   width: 100px;

@@ -1,34 +1,17 @@
 /* Début de la mise en forme de la page experiences */
-
-#titleContent h2{
-    color: color("or");
-}
-
-#expComp{
-    display:flex;
-    flex-direction:column;
-    width:auto;
-    justify-content: space-around;
-    min-height: 35vh;
-}
-
-#navContent, #titleContent, #expCompContent, #navItems, #pdpContent{
-    display:flex;
-    flex-basis:auto;
-}
-#expCompContent{
-    display:flex;
-    flex-direction:row;
-}
-#experience, #competences{
-    flex-direction: column;
-}
-
-#experience, #competences li {
-    color: color();
-}
-
-#title > img {
+.vignette {
     @include vignetteExperience;
+}
 
+#expPro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    margin: 0 0 20px 0;
+
+    & > h1 {
+    font-size: police("xxl");
+    color: color("white");
+    }
 }
