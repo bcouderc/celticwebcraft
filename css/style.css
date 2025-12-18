@@ -592,6 +592,7 @@ span.texte.js {
 }
 
 #title > img {
+  display: block;
   width: 100px;
   border-radius: 50%;
   border: 5px solid #202020;
@@ -599,6 +600,7 @@ span.texte.js {
 }
 
 .vignette {
+  display: block;
   width: 100px;
   border-radius: 50%;
   border: 5px solid #202020;
