@@ -1,9 +1,19 @@
-@mixin logoPortrait {
-    display: block;
+@mixin vignetteDesktop {
+    @include boxShadow();
     border-radius:7%;
     width: 300px;
-    border: 3px solid color("black");
-    box-shadow: 2px 2px 10px 2px color("ombre");
+}
+
+@mixin vignetteMobile {
+    @include boxShadow();
+    width: 100px;
+    border-radius: 50%;
+}
+
+@mixin vignetteAPropos {
+    @include boxShadow();
+    width: 300px;
+    border-radius: 50%;
 }
 
 @mixin positionMain {
@@ -16,10 +26,8 @@
     margin: 0;
 }
 
-@mixin vignetteExperience {
+@mixin boxShadow{
     display: block;
-    width: 100px;
-    border-radius: 50%;
     border: 5px solid color("degrad1_");
     box-shadow: 2px 2px 10px 2px color("ombre");
 }

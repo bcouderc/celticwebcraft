@@ -2,129 +2,12 @@
 /* Début de la mise en forme du responsive.scss - Tablette (758px) */
 @media screen and (max-width:950px){
 
-    p {
-        font-size: police("sm");
-    }
-
-    /* Sidenav menu */
-    #navigation {
-        & a {
-            color: color("closeButton");
-        }
-
-        & li {
-            font-size:police("lg");
-        }
-    }
-
-    #mainHeader {
-        height: 50px;
-        & img{
-            width: 40%; // réduit la taille du logo en mode responsive
-            margin: 10px;
-        }
-    }
-
-    #pageContainer {
-        padding: 5rem 1rem;
-    }
-
-    /* Bouton Close visible */
-    #closeBtn {
-        display: block;
-        position: absolute;
-        top: 10px;
-        left: 20px;
-        font-size: police("xl");
-        text-decoration: none;
-        color: color("closeButton");
-        z-index: 3;
-    }
-
-    /* Bouton burger visible*/
-    #openBtn, #closeBtn {
-        background: none;
-        border: none;
-        padding: 0;
-        margin: 0;
-        font: inherit;
-        color: inherit;
-        cursor: pointer;
-    }
-
-    /* Bouton open visible + burger */
-    #openBtn{
-        display:block;
-        position: absolute;
-        //top: 20px;
-        right: 20px;
-        z-index: 2;
-
-        & .burger-icon span {
-            display: block;
-            width: 30px;
-            height: 4px;
-            background-color: color("navResponsive");
-            margin: 6px 0;
-            transition: 0.4s;
-        }
-    }
-
-    /* Mise en forme du menu latéral */
-    .sidenav{
-        height: 100%;
-        width: 280px;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        right: -280px;
-        background-color: color("navResponsive");
-        padding-top: 60px;
-        transition: right .8s ease;
-        box-shadow: -2px 0 5px rgba(0,0,0,0.1);
-
-        & nav ul {
-            flex-direction: column;
-            align-items: center;
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-
-            & li{
-                padding: 10px 20px;
-
-                & a {
-                    font-size: police("md");
-                    text-decoration: none;
-                    display: block;
-                }
-            }
-        }
-        /* Active class */
-        &.active{
-            right: 0;
-        }
-    }
+  
 
 
 /* Mise en forme de la page index */
     #pageTitre {
         flex-direction: column;
-    
-        & #imgPortrait img{
-            border-radius: 50%;
-            width: 200px;
-            margin-top: 50px;
-        }
-
-        #imgRsxSociaux img{
-            width: 40px;
-            height: auto;
-            border-radius: 5px;
-        }
-        & div{
-            text-align: center;
-        }
     }
 
     .titre {
@@ -145,9 +28,6 @@
     }
 
 /* Mise en forme de la page compétences*/
-.boxDevWeb, .boxMaintSupp, .boxBur, .boxAtouts {
-    @include positionMainResponsive
-}
 
 
 /* Mise en page de la page expériences*/

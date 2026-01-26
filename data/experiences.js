@@ -26,6 +26,7 @@ compZone.after(navContainer);
 fetch("data/experiences.json")
     .then(response => response.json())
     .then(data => {
+        console.log(data);
         experiences = data;
         displayExperience(currentIndex);
     })
@@ -48,20 +49,20 @@ function displayExperience(index) {
     const h3 = document.createElement("h3");
     h3.textContent = exp.poste;
 
-    const ulMissions = document.createElement("ul");
-    exp.missions.forEach(mission => {
+    const ulmission = document.createElement("ul");
+    exp.mission.forEach(mission => {
         const li = document.createElement("li");
         li.textContent = mission;
-        ulMissions.appendChild(li);
+        ulmission.appendChild(li);
     });
 
-    expZone.append(h2, h3, ulMissions);
+    expZone.append(h2, h3, ulmission);
 
     // Zone compétences
     compZone.innerHTML = "";
 
     const ulComp = document.createElement("ul");
-    exp.competences.forEach(comp => {
+    exp.competence.forEach(comp => {
         const li = document.createElement("li");
         li.textContent = comp;
         ulComp.appendChild(li);

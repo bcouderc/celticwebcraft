@@ -1,3 +1,4 @@
+//_apropos.scss
 #pageContent {
     & main {
         display: flex;
@@ -5,7 +6,7 @@
     }
 
     & #imgPortrait img {
-        @include logoPortrait;
+        @include vignetteAPropos;
     }
 
 }

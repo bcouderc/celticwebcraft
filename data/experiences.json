@@ -4,19 +4,20 @@
         "image": "images/logos/experiences/Logo-helpline.png",
         "date": "2024 à aujourd'hui",
         "poste": "Technicienne de proximité",
-        "missions": [
+        "mission": [
             "Gestion et maintenance du parc informatique",
             "Support aux utilisateurs et résolution des incidents",
             "Masterisation et configuration de postes de travail",
             "Suivi et gestion des interventions (One by Clarilog)",
             "Suivi et mise à jour du parc informatique (One by Clarilog)",
             "Création de répertoire et attribution de droit dans l'active Directory",
+            "Prise de main à distance sur les postes informatiques (AnyDesk, Team's)",
             "Création de compte de messagerie sur Microsoft Exchange",
             "Création de liste de diffusion (Exchange ou AD)",
             "Création d'équipe Team's",
             "Organisation et mise en oeuvre du renouvellement du parc informatique en totale autonomie (80 machines)"
         ],
-        "competences": [
+        "competence": [
             "Utilisation d’un outil ITSM (One by Clarilog)",
             "Utilisation de l'Active Directory, Microsoft Exchange, O365",
             "Diagnostic et résolution de problèmes informatiques",
@@ -35,12 +36,13 @@
         "image": "images/logos/experiences/Logo-Experis.svg",
         "date": "Février 2023 - Avril 2023",
         "poste": "Fondation Bon Sauveur, Bégard - Technicienne Système et Réseau",
-        "missions": [
+        "mission": [
             "Support Helpdesk et gestion des tickets (GLPI)",
             "Mise à jour et renouvellement du parc informatique",
+            "Prise de main à distance sur les postes informatiques (VNC, nRemoteNG, SCCM)",
             "Déploiement et configuration des postes de travail"
         ],
-        "competences": [
+        "competence": [
             "Utilisation d’un outil ITSM (GLPI)",
             "Gestion des tickets d’incidents",
             "Installation et configuration de systèmes d’exploitation",
@@ -56,13 +58,15 @@
         "image": "images/logos/experiences/Logo-Cerfrance.png",
         "date": "Septembre 2022 - Novembre 2022",
         "poste": "Cerfrance Côte-d'Armor, Plérin - Technicienne Hotline",
-        "missions": [
+        "mission": [
             "Installation et maintenance de l’application ISACOMPTA",
+            "Utilisation d'un outil ITSM (GLPI)",
             "Support de proximité des clients et employés sur le matériel et les logiciels",
-            "Gestion des demandes d’impression",
-            "Déploiement et configuration des postes de travail"
+            "Prise de main à distance des postes clients (TeamViewer)",
+            "Gestion des demandes d’impression des comptables",
+            "Déploiement et configuration des postes de travail selon les arrivées des nouveaux salariés"
         ],
-        "competences": [
+        "competence": [
             "Assistance technique téléphonique et à distance",
             "Utilisation d’un outil ITSM (GLPI)",
             "Installation et configuration de logiciels métiers",
@@ -77,25 +81,25 @@
         "image": "images/logos/experiences/aljt-logo.png",
         "date": "Avril 2011 - Octobre 2021",
         "poste": "Association Logement Jeunes Travailleurs, Paris - Assistante de Direction",
-        "missions": [
-            "Gestion et suivi administratif des dossiers de sinistres",
+        "mission": [
+            "Gestion et suivi administratif des dossiers de sinistres de l'ensemble des résidences parisiennes (21)",
             "Transmission des factures liées aux sinistres auprés du courtier en assurance",
             "Gestion et suivi des demandes de subventions (Ville de Paris, AGLS, FONJEP, CAF)",
             "Mise à jour de l'annuaire des partenaires",
             "Gestion des commandes (fourniture de bureau, linge de maison, entretien, petit matériel informatique, petit matériel de maintenance)",
-            "Mise à jour et archivage des documents",
+            "Mise à jour et archivage des documents relatifs à la gestion des résidences",
             "Rédaction et mise en forme des rapports d'activités de l'ensemble des résidences parisiennes",
             "Production de statistiques au profit des bailleurs sociaux",
             "Rédaction des comptes rendus de réunions hebdomadaires",
-            "Mise à jour de la base de données de suivi des salariés",
+            "Mise à jour de la base de données de suivi des salariés au niveau du Groupement Territorial",
             "Mise à jour et suivi des outils de pilotage et tableaux de bord et réalisation des différents rapports",
             "Préparation des dossiers des résidences destinés aux différents partenaires sociaux",
-            "Participation à l'organisation d'évènements",
+            "Participation à l'organisation d'évènements (Voeux, départs, repas de cohésion)",
             "Accueil des entreprises et des partenaires sociaux",
             "Contribution à la vie quotidienne de la résidence",
-            "Proposition et production d'outils de suivi et de procédures"
+            "Proposition et production d'outils de suivi (Excel) et de procédures"
         ],
-        "competences": [
+        "competence": [
             "Gestion administrative et suivi de dossiers",
             "Organisation et classement de documents",
             "Maîtrise des outils bureautiques (Pack Office, Excel avancé)",
@@ -110,12 +114,20 @@
         "image": "images/logos/experiences/logo-AdT-fond-cam-CE-1.png",
         "date": "Mars 1999 - Avril 2011",
         "poste": "Armée de Terre, Paris - Technicienne de Maintenance Informatique",
-        "missions": [
+        "mission": [
+            "Reconnaissance du site du Fort Neuf de Vincennes dans le cadre de l'installation de l'Etat-Major du Groupement des services",
+            "Relevé de l'ensemble des prises réseaux dans le cadre de la mise en réseau des futurs et actuels postes de travail",
+            "Préparation et configuration de master",
             "Déploiement et configuration de postes sous Active Directory",
-            "Création et gestion des comptes utilisateurs",
-            "Support aux utilisateurs et gestion des tickets d’intervention"
+            "Création et gestion des comptes utilisateurs sous Active Directory",
+            "installation d'imprimantes réseau",
+            "Installation et maintenance d'une salle Internet mise à disposition des personnels de VIGIPIRATE",
+            "installation d'un serveur dédié pour la salle Internet avec création de comptes utilisateurs",
+            "Brassage de prise réseau",
+            "Gestion des tickets d’intervention",
+            "Assistance et conseil sur le pack office"
         ],
-        "competences": [
+        "competence": [
             "Administration Active Directory (création de comptes, intégration au domaine)",
             "Déploiement de postes et gestion des images système",
             "Support et assistance aux utilisateurs",
@@ -130,12 +142,12 @@
         "image": "images/logos/experiences/logo-AdT-fond-cam-CE-1.png",
         "date": "Septembre 1995 - Mars 1999",
         "poste": "Armée de Terre, Paris - Opérateur de saisie",
-        "missions": [
+        "mission": [
             "Saisie et mise à jour des fiches de renseignements des appelés du contingent",
             "Extraction et contrôle des données via des requêtes SQL",
             "Contrôle des données pour le versement de la paie"
         ],
-        "competences": [
+        "competence": [
             "Saisie rapide et contrôle des données",
             "Utilisation de bases de données SQL",
             "Vérification et correction des erreurs",

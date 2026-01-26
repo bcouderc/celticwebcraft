@@ -1,6 +1,6 @@
 /* Début de la mise en forme de la page experiences */
 .vignette {
-    @include vignetteExperience;
+    @include vignetteMobile;
 }
 
 #expPro {
@@ -14,4 +14,10 @@
     font-size: police("xxl");
     color: color("white");
     }
+}
+
+#expNav {
+    display: flex;
+    margin-bottom: 80px;
+    justify-content: center;
 }

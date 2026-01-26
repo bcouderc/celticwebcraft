@@ -1,0 +1,50 @@
+À propos de moi
+
+Hello 👋
+Je suis technicienne informatique de terrain avec un parcours un peu atypique… et c’est ce qui fait ma force ! 💪
+
+J’ai commencé ma carrière dans l’armée, où j’ai passé 17 ans à apprendre la rigueur, le travail bien fait et le sens du collectif. Après cette belle expérience, j’ai fait un détour par l’assistanat de direction pendant plus de 10 ans — un poste où j’ai appris à jongler entre les priorités, à garder mon calme en toutes circonstances et à garder le sourire, même dans le rush.
+
+Puis, j’ai décidé de revenir à mes premières amours : l’informatique. En 2023, j’ai validé un diplôme de gestionnaire en maintenance et support informatique, et depuis, je travaille comme technicienne de proximité, en totale autonomie sur un site client. J’aime dépanner, expliquer, trouver des solutions concrètes, et surtout, rendre service avec bienveillance.
+
+À côté de ça, je développe aussi mes compétences en création de sites web. J’ai lancé mon petit studio freelance, CelticWebCraft, pour créer des sites vitrines sur mesure. Je m’amuse avec le code, je peaufine mon portfolio, je teste des idées — toujours dans l’optique d’apprendre et d’aller plus loin.
+
+Ce que je cherche aujourd’hui ? Rejoindre une équipe où l’on travaille ensemble, où l’on s’entraide et où je pourrai continuer à évoluer dans un métier qui me passionne.
+
+
+
+
+Présentation
+
+Bonjour,
+Je m'appelle [Ton Prénom et Nom], technicien(ne) informatique de terrain et développeur(se) web indépendant(e) basé(e) à Guingamp, dans les Côtes-d'Armor. Après une carrière de 17 ans dans les forces armées en tant que technicien de maintenance, puis une reconversion réussie dans le domaine administratif et informatique, j'ai décidé de créer CelticWebCraft, une entreprise à taille humaine alliant support informatique de proximité et création de sites web sur mesure.
+
+Fort(e) de mon expérience en autonomie sur site client et de ma formation en maintenance informatique et développement web, je propose aux particuliers, TPE, artisans et associations :
+
+des services de dépannage et d’assistance informatique, adaptés à leurs besoins réels ;
+
+la création de sites web vitrines modernes, accessibles, et sans CMS, pour garantir la légèreté, la performance et la maîtrise totale du code.
+
+Mon approche repose sur la transparence, la qualité du service, et le respect de l’identité de chaque client. Mon objectif est de démocratiser l’accès au numérique localement, tout en valorisant la simplicité et la fiabilité.
+
+********************************************************************************************
+Voici 10 propositions équilibrées entre technologies, outils, méthodologies et savoir-être que tu maîtrises, d’après ce que je sais de ton parcours :
+
+🛠️ Technologies & Outils
+
+- HTML/CSS (sans CMS) – Création de sites web vitrines légers, structurés et maintenables.
+- JavaScript (bases solides) – Pour dynamiser les interfaces et interagir avec des APIs.
+- Firebase (Firestore & hébergement) – Pour rendre un blog ou CV dynamique sans backend complexe.
+- SimplyBook.me (API) – Intégration d’un système de réservation externalisé.
+- Synology NAS – Gestion de stockage local, configuration, maintenance et récupération de données.
+- Suite Microsoft 365 (notamment Excel/VBA) – Automatisation de tâches, analyse de données.
+
+📐 Méthodologies
+
+- Autonomie sur site client – Gestion complète d’un parc informatique en contexte professionnel.
+- Maintenance préventive et curative – Diagnostic, dépannage et accompagnement utilisateurs.
+
+🤝 Savoir-être
+
+- Écoute active et pédagogie – Adapter les solutions au niveau et aux attentes de chaque client.
+- Polyvalence et adaptabilité – Passer du développement web au support informatique avec efficacité.

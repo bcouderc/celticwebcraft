@@ -1,3 +1,4 @@
+//_main.scss
 /* Début de la mise en forme de la partie main.scss */
 *, *:before, *:after{
     box-sizing: inherit;
@@ -20,6 +21,7 @@ h1, h2, p, li {
 }
 
 p {
+    font-size: police("sm");
     text-align: justify;
     margin: 5px 15px;
 }

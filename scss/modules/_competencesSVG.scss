@@ -1,4 +1,8 @@
 /* Ici commence la mise en forme de la page competence */
+.boxDevWeb, .boxMaintSupp, .boxBur, .boxAtouts {
+    @include positionMainResponsive
+}
+
 .boxDevWeb{
     display: flex;
     flex-direction: column;
