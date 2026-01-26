@@ -52,6 +52,7 @@ function displayExperience(index) {
     const ulmission = document.createElement("ul");
     exp.mission.forEach(mission => {
         const li = document.createElement("li");
+        li.classList.add("liste");
         li.textContent = mission;
         ulmission.appendChild(li);
     });
@@ -64,6 +65,7 @@ function displayExperience(index) {
     const ulComp = document.createElement("ul");
     exp.competence.forEach(comp => {
         const li = document.createElement("li");
+        li.classList.add("liste");
         li.textContent = comp;
         ulComp.appendChild(li);
     });

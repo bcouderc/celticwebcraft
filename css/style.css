@@ -500,11 +500,7 @@ span.texte.js {
   justify-content: center;
 }
 
-#expZone > ul > li {
-  font-size: 0.8rem;
-}
-
-#compZone > ul > li {
+.liste {
   font-size: 0.8rem;
 }
 
