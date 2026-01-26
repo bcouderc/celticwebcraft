@@ -500,12 +500,12 @@ span.texte.js {
   justify-content: center;
 }
 
-#expZone > li {
-  font-size: 0.9rem;
+#expZone > ul > li {
+  font-size: 0.8rem;
 }
 
-#compZone > li {
-  font-size: 0.9rem;
+#compZone > ul > li {
+  font-size: 0.8rem;
 }
 
 /* Sidenav menu */

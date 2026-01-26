@@ -22,10 +22,10 @@
     justify-content: center;
 }
 
-#expZone > li {
-    font-size: police("sm");
+#expZone > ul > li {
+    font-size: police("xs");
 }
 
- #compZone > li{
-    font-size: police("sm");
- }
+#compZone > ul > li{
+    font-size: police("xs");
+}
