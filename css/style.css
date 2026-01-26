@@ -490,7 +490,7 @@ span.texte.js {
   margin: 0 0 20px 0;
 }
 #expPro > h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #FFF;
 }
 
@@ -498,6 +498,10 @@ span.texte.js {
   display: flex;
   margin-bottom: 80px;
   justify-content: center;
+}
+
+#expZone > li, #compZone > li {
+  font-size: 0.9rem;
 }
 
 /* Sidenav menu */

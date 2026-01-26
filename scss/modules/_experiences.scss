@@ -11,7 +11,7 @@
     margin: 0 0 20px 0;
 
     & > h1 {
-    font-size: police("xxl");
+    font-size: police("xl");
     color: color("white");
     }
 }
@@ -20,4 +20,8 @@
     display: flex;
     margin-bottom: 80px;
     justify-content: center;
+}
+
+#expZone > li, #compZone > li {
+    font-size: police("sm");
 }
