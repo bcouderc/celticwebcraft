@@ -1,5 +1,4 @@
-//_main.scss
-/* Début de la mise en forme de la partie main.scss */
+/* Mise en forme de _main.scss */
 *, *:before, *:after{
     box-sizing: inherit;
 }
@@ -16,7 +15,7 @@ body {
     margin: auto;
 }
 
-h1, h2, p, li {
+p, li {
     color: color();
 }
 
@@ -37,6 +36,7 @@ h3 {
     color: color("grise");
     margin: 0;
 }
+
 #pageContainer {
     position: relative;
     top: 10px;

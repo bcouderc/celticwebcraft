@@ -1,0 +1,35 @@
+#conteneur {
+  display: grid;
+  grid-template-areas: "en-tete en-tete navBar navBar navbar" "colDroite logoEntreprise titre titre colGauche" "colDroite logoEntreprise missions competences colGauche" "pied-de-page pied-de-page pied-de-page pied-de-page pied-de-page";
+  gap: 10px;
+  width: 95%;
+  margin: auto;
+}
+
+header {
+  grid-area: en-tete;
+}
+
+nav {
+  grid-area: navBar;
+}
+
+section {
+  grid-area: colDroite;
+}
+
+figure {
+  grid-area: logoEntreprise;
+}
+
+h1 {
+  grid-area: titre;
+}
+
+article {
+  grid-area: missions;
+}
+
+aside {
+  grid-area: competences;
+}/*# sourceMappingURL=test.css.map */

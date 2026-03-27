@@ -15,6 +15,12 @@ fetch('data/menu.json')
       if (pageName === "Accueil") {
         pageName = "index";
       }
+      if (pageName === "Services proposés") {
+        pageName = "services";
+      }
+      if (pageName === "Grille des tarifs") {
+        pageName = "tarifs";
+      }
       // Transforme le nom de la page en nom de fichier :
       // "Accueil" → "../accueil.html" (remonte d’un dossier dans l’arborescence)
 

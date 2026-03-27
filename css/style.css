@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-/* Début de la mise en forme de la partie main.scss */
+/* Mise en forme de _main.scss */
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -19,7 +19,7 @@ body {
   margin: auto;
 }
 
-h1, h2, p, li {
+p, li {
   color: #FFF;
 }
 
@@ -53,7 +53,7 @@ h3 {
   min-height: 100vh;
 }
 
-/* Début de la mise en forme du header*/
+/* Mise en forme de _header.scss*/
 #mainHeader {
   display: flex;
   justify-content: space-between;
@@ -108,7 +108,7 @@ h3 {
   align-items: center;
 }
 
-/* début de la mise en forme de la page index */
+/* Mise en forme de _index.scss */
 #pageTitre {
   display: flex;
   align-items: center;
@@ -216,7 +216,7 @@ h3 {
     width: 100%;
   }
 }
-/* Ici commence la mise en forme du formulaire de contact */
+/* Mise en forme de _contact.scss */
 #contact {
   max-width: 600px;
   margin: 0 auto;
@@ -304,7 +304,7 @@ h3 {
   margin-top: 1rem;
 }
 
-/* Début de la mise en forme du pdp.scss */
+/* Mise en forme de _pdp.scss */
 #pdpContent {
   display: flex;
   justify-content: center;
@@ -343,7 +343,7 @@ h3 {
   transform: scale(1.1);
 }
 
-/* Ici commence la mise en forme de la page competence */
+/* Mise en forme de _competenceSVG.scss */
 .boxDevWeb, .boxMaintSupp, .boxBur, .boxAtouts {
   width: 100%;
   margin: 0;
@@ -447,7 +447,7 @@ span.texte.js {
     stroke-dashoffset: 450;
   }
 }
-/* Début de la mise en forme du responsive.scss - Tablette (758px) */
+/* Mise en forme de _responsive.scss */
 @media screen and (max-width: 950px) {
   /* Mise en forme de la page index */
   #pageTitre {
@@ -473,7 +473,7 @@ span.texte.js {
     font-size: 1.2rem;
   }
 }
-/* Début de la mise en forme de la page experiences */
+/* Mise en forme de _experiences.scss */
 .vignette {
   display: block;
   border: 5px solid #202020;
@@ -504,7 +504,7 @@ span.texte.js {
   font-size: 0.8rem;
 }
 
-/* Sidenav menu */
+/* Mise en forme de _menuBurger.scss */
 #navigation a {
   color: #133133;
 }
@@ -575,7 +575,6 @@ span.texte.js {
   padding-top: 60px;
   transition: right 0.8s ease;
   box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
-  /* Active class */
 }
 .sidenav nav ul {
   flex-direction: column;
@@ -592,6 +591,45 @@ span.texte.js {
   text-decoration: none;
   display: block;
 }
+.sidenav {
+  /* Active class */
+}
 .sidenav.active {
   right: 0;
+}
+
+#conteneur {
+  display: grid;
+  grid-template-areas: "en-tete en-tete navBar navBar navbar" "colDroite logoEntreprise titre titre colGauche" "colDroite logoEntreprise missions competences colGauche" "pied-de-page pied-de-page pied-de-page pied-de-page pied-de-page";
+  gap: 10px;
+  width: 95%;
+  margin: auto;
+}
+
+header {
+  grid-area: en-tete;
+}
+
+nav {
+  grid-area: navBar;
+}
+
+section {
+  grid-area: colDroite;
+}
+
+figure {
+  grid-area: logoEntreprise;
+}
+
+h1 {
+  grid-area: titre;
+}
+
+article {
+  grid-area: missions;
+}
+
+aside {
+  grid-area: competences;
 }/*# sourceMappingURL=style.css.map */

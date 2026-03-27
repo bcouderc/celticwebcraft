@@ -7,8 +7,7 @@ const expZone = document.getElementById("expZone");
 const compZone = document.getElementById("compZone");
 
 // Création des boutons navigation
-const navContainer = document.createElement("div");
-navContainer.id = "expNav";
+const navContainer = document.getElementById("expNav");
 
 const btnPrev = document.createElement("button");
 btnPrev.textContent = "⟵ Précédent";
@@ -18,9 +17,6 @@ btnNext.textContent = "Suivant ⟶";
 
 navContainer.appendChild(btnPrev);
 navContainer.appendChild(btnNext);
-
-// Insertion des boutons après la zone compétence
-compZone.after(navContainer);
 
 // Chargement du fichier JSON
 fetch("data/experiences.json")
@@ -52,7 +48,7 @@ function displayExperience(index) {
     const ulmission = document.createElement("ul");
     exp.mission.forEach(mission => {
         const li = document.createElement("li");
-        li.classList.add("liste");
+        ulmission.classList.add("liste");
         li.textContent = mission;
         ulmission.appendChild(li);
     });
@@ -65,7 +61,7 @@ function displayExperience(index) {
     const ulComp = document.createElement("ul");
     exp.competence.forEach(comp => {
         const li = document.createElement("li");
-        li.classList.add("liste");
+        ulComp.classList.add("liste");
         li.textContent = comp;
         ulComp.appendChild(li);
     });
