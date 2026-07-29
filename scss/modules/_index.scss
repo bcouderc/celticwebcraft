@@ -2,6 +2,7 @@
 #pageTitre {
     display: flex;
     align-items: center;
+    margin-top: 50px;
 
     #imgPortrait img{
         @include vignetteMobile;
