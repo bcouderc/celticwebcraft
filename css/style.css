@@ -133,8 +133,14 @@ h3 {
 #pageTitre div {
   text-align: center;
 }
-#pageTitre .titre h1, #pageTitre h2, #pageTitre h3 {
+#pageTitre .titre {
+  text-align: center;
+}
+#pageTitre .titre h1, #pageTitre h2 {
   font-size: 1.5rem;
+}
+#pageTitre .titre h3 {
+  font-size: 1rem;
 }
 
 @keyframes fadeUp {
