@@ -35,7 +35,7 @@ h1, h2 {
   margin: 0;
 }
 
-h3 {
+h3, h4 {
   font-size: 0.8rem;
   color: rgb(187, 187, 187);
   margin: 0;
@@ -130,10 +130,8 @@ h3 {
   height: auto;
   border-radius: 5px;
 }
-#pageTitre div {
-  text-align: center;
-}
-#pageTitre .titre {
+#pageTitre .hero p {
+  margin-top: 30px;
   text-align: center;
 }
 #pageTitre .titre h1, #pageTitre h2 {
@@ -141,6 +139,11 @@ h3 {
 }
 #pageTitre .titre h3 {
   font-size: 1rem;
+  margin: 5px 0 5px 0;
+}
+#pageTitre .titre h4 {
+  font-size: 0.8rem;
+  font-style: oblique;
 }
 
 @keyframes fadeUp {
@@ -153,7 +156,7 @@ h3 {
     transform: translateY(0);
   }
 }
-.titre h1, h2, h3 {
+.titre h1, h2, h3, h4 {
   opacity: 0;
   animation: fadeUp 0.8s ease forwards;
 }
@@ -168,6 +171,10 @@ h3 {
 
 .titre h3 {
   animation-delay: 0.9s;
+}
+
+.titre h4 {
+  animation-delay: 1s;
 }
 
 #pageContent main {
@@ -462,7 +469,7 @@ span.texte.js {
   }
   .titre {
     align-items: center;
-    margin-top: 30px;
+    margin: 30px 0 30px 0;
   }
   .titre h1, .titre h2, .titre h3 {
     font-size: 1rem;

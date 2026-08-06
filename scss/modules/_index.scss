@@ -7,29 +7,37 @@
     #imgPortrait img{
         @include vignetteMobile;
     }
+
     & div { 
         display: flex;
         flex-direction: column;
     }
+
     #imgRsxSociaux img{
         width: 40px;
         height: auto;
         border-radius: 5px;
-      }
-      & div{
-        text-align: center;
-      }
-
-    & .titre {
-      text-align: center;
     }
+
+    & .hero p{
+        margin-top: 30px;
+        text-align: center;
+    }
+
     & .titre h1, h2{
         font-size: police("xl");
     }
     
     & .titre h3{
       font-size:  police("md");
+      margin: 5px 0 5px 0;
     }
+    
+    & .titre h4{
+      font-size: police("xs");
+      font-style: oblique;
+    }
+
 }
 
 @keyframes fadeUp {
@@ -43,7 +51,7 @@
   }
 }
 
-.titre h1, h2, h3 {
+.titre h1, h2, h3, h4 {
   opacity: 0;
   animation: fadeUp 0.8s ease forwards;
 }
@@ -56,4 +64,7 @@
 }
 .titre h3 {
   animation-delay: 0.9s;
+}
+.titre h4 {
+  animation-delay: 1s;
 }
