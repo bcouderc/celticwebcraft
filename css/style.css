@@ -112,7 +112,7 @@ h3, h4 {
 #pageTitre {
   display: flex;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 #pageTitre #imgPortrait img {
   display: block;
@@ -135,7 +135,7 @@ h3, h4 {
   text-align: center;
 }
 #pageTitre .titre h1, #pageTitre h2 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 #pageTitre .titre h3 {
   font-size: 1rem;
