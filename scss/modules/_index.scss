@@ -37,7 +37,9 @@
       font-size: police("xs");
       font-style: oblique;
     }
-
+button{
+  @include button;
+}
 }
 
 @keyframes fadeUp {

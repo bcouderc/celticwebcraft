@@ -10,10 +10,10 @@
 }
 
 body {
+  font-family: "Josefin Sans", Verdana, sans-serif;
   margin: 20px auto;
   max-width: 1800px;
   font-size: 1rem;
-  font-family: "Josefin Sans", Verdana, sans-serif;
   background: #082527;
   background: linear-gradient(45deg, #082527 0%, #164c50 62%, #082527 100%);
   margin: auto;
@@ -144,6 +144,19 @@ h3, h4 {
 #pageTitre .titre h4 {
   font-size: 0.8rem;
   font-style: oblique;
+}
+#pageTitre button {
+  font-family: "Josefin Sans", Verdana, sans-serif;
+  padding: 7px 2rem;
+  margin-bottom: 10px;
+  opacity: 80%;
+  border: none;
+  border-radius: 8px;
+  color: #333;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, opacity 0.2s;
 }
 
 @keyframes fadeUp {
@@ -293,11 +306,13 @@ h3, h4 {
   text-decoration: none;
 }
 #contact button {
-  padding: 1rem 2rem;
-  background-color: rgb(235, 180, 44);
+  font-family: "Josefin Sans", Verdana, sans-serif;
+  padding: 7px 2rem;
+  margin-bottom: 10px;
+  opacity: 80%;
   border: none;
   border-radius: 8px;
-  color: #000;
+  color: #333;
   font-weight: bold;
   font-size: 1rem;
   cursor: pointer;
@@ -566,8 +581,8 @@ span.texte.js {
   }
   #openBtn .burger-icon span {
     display: block;
-    width: 30px;
-    height: 4px;
+    width: 20px;
+    height: 2px;
     background-color: #2F6265;
     margin: 6px 0;
     transition: 0.4s;

@@ -4,10 +4,10 @@
 }
 
 body {
+    @include fontFamily;
     margin: 20px auto; // permet de centrer l'image horizontalement
     max-width: 1800px;
     font-size: police("md");
-    font-family: "Josefin Sans", Verdana, sans-serif;
     background: color("degrad1");
     background: -moz-linear-gradient(45deg, color("degrad1") 0%, color("degrad2") 62%, color("degrad1") 100%);
     background: -webkit-linear-gradient(45deg,color("degrad1") 0%, color("degrad2") 62%, color("degrad1") 100%);

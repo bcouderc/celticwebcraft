@@ -49,14 +49,13 @@
     #openBtn{
         display:block;
         position: absolute;
-        //top: 20px;
         right: 20px;
         z-index: 2;
 
         & .burger-icon span {
             display: block;
-            width: 30px;
-            height: 4px;
+            width: 20px;
+            height: 2px;
             background-color: color("navResponsive");
             margin: 6px 0;
             transition: 0.4s;
