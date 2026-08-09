@@ -112,7 +112,7 @@ h3, h4 {
 #pageTitre {
   display: flex;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 7px;
 }
 #pageTitre #imgPortrait img {
   display: block;
@@ -131,7 +131,6 @@ h3, h4 {
   border-radius: 5px;
 }
 #pageTitre .hero p {
-  margin-top: 30px;
   text-align: center;
 }
 #pageTitre .titre h1, #pageTitre h2 {

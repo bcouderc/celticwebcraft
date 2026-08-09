@@ -2,7 +2,7 @@
 #pageTitre {
     display: flex;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 7px;
 
     #imgPortrait img{
         @include vignetteMobile;
@@ -20,7 +20,6 @@
     }
 
     & .hero p{
-        margin-top: 30px;
         text-align: center;
     }
 
