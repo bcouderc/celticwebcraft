@@ -36,9 +36,23 @@
       font-size: police("xs");
       font-style: oblique;
     }
-button{
-  @include button;
 }
+
+.btn{
+  a {
+    @include fontFamily;
+    text-decoration: none;
+    color: color("darkBlue");
+    color: color("black");
+    font-weight: bold;
+    font-size: police("md");
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    background-color: color("grise");
+    opacity: 70%;
+    cursor: pointer;
+  }
 }
 
 @keyframes fadeUp {
@@ -67,5 +81,5 @@ button{
   animation-delay: 0.9s;
 }
 .titre h4 {
-  animation-delay: 1s;
+  animation-delay: 1.12s;
 }
