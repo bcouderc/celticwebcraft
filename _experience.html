@@ -13,10 +13,12 @@
     <!-- Une PWA, ou Progressive Web App, est un site web qui se comporte comme une application mobile. Placé à la racine du site ce fichier permet de décrire l'application aux navigateurs (Chrome, Firefox, etc.)-->
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="/images/icones/favicon-16x16.ico">>
     <script src="data/main.js" defer></script>
     <script src="data/menuBurger.js" defer></script>
     <script src="data/menu.js" defer></script>
     <script src="https://kit.fontawesome.com/7be78ce38e.js" crossorigin="anonymous"></script>
+    <script src="data/experiences.js" defer></script>
     <title>Portfolio de Béatrice COUDERC</title>
 </head>
 <body>
@@ -42,28 +44,43 @@
             </button><!--Fin du menu burger-->            
         </header><!-- Fin du header--> 
         <div id="pageContainer">                
-            <!-- Ici commence le contenu de la page x.html -->
-               
-            <!-- Ici se termine le contenu de la page x.html -->
+            <!-- Ici commence le contenu de la page experience.html -->
+              <section id="expPro">
+                <img src="" alt="" id="expImage" class="vignette">
+                <h1>Expériences professionnelles</h1>
+            </section>
+            <section id="expZone">
+                <!-- Ici on insère le h2 h3 et les li concernant les missions-->
+            </section>
+            <section id="competence">
+                <h3>Compétences mises en oeuvre</h3>
+                <div id="compZone">
+                    <!-- Ici on insère le h3 et les li concernant les compétences-->
+                </div>
+            </section>
+            <section id="expNav">
+                <!-- Insérer ici les boutons de navigation-->
+            </section>
+
+            <!-- Ici se termine le contenu de la page experience.html -->
             </div> <!-- Fin de pageContainer -->
 
-        <div id="pdpContent">
-            <footer id="footer">
+ <footer id="footer">
                 <section id="imgRsxSociaux">
-                    <a href="https://www.linkedin.com/in/beatrice-couderc" target="_blank" aria-label="LinkedIn">
+                    <a href="https://www.linkedin.com/in/beatrice-couderc" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                         <img src="images/logos/reseaux sociaux/linkedin-1.png" alt="Lien vers mon profil linkedin">
                     </a>
-                    <a href="https://github.com/bcouderc" target="_blank" aria-label="GitHub">
+                    <a href="https://github.com/bcouderc" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                         <img src="images/logos/reseaux sociaux/github_v1.png" alt="Lien vers GitHub">
                     </a>
                 </section>
                 <section id="liensGeneraux">
-                    <a href="experience.html">&copy; 2026 - CelticWebCraft</a>
+                    <span>&copy; 2026 - CelticWebCraft</span>
                     <a href="mentions-legales.html">Mentions légales</a>
                     <a href="conditions-generales.html">Conditions générales</a>
+                    <a href="politique-confidentialite.html">Politique de confidentialité</a>
                 </section>
-            </footer><!--  Fin du pied de page-->
-        </div>
+</footer><!--  Fin du pied de page-->
 
     </div><!-- Fin de pageWrapper-->
 </body>

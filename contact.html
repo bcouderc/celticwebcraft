@@ -13,16 +13,23 @@
     <!-- Une PWA, ou Progressive Web App, est un site web qui se comporte comme une application mobile. Placé à la racine du site ce fichier permet de décrire l'application aux navigateurs (Chrome, Firefox, etc.)-->
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="/images/icones/favicon-16x16.ico">>
     <script src="data/main.js" defer></script>
     <script src="data/menuBurger.js" defer></script>
-    <script src="data/menu.js"></script>
+    <script src="data/menu.js" defer></script>
+    <script src="data/formulaire.js" defer></script>
+    <script
+    src="https://challenges.cloudflare.com/turnstile/v0/api.js"
+    async
+    defer
+></script>
     <title>Portfolio de Béatrice COUDERC</title>
 </head>
 <body>
     <div id="pageWrapper">
         <header id="mainHeader"> <!--Ici se trouve l'entête de la page-->
             <div>
-                <img src="images/logos/CWC_logo.png" alt="logo CelticWebCraft"></img>
+                <img src="images/logos/CWC_logo.png" alt="logo CelticWebCraft">
             </div>
             <div id="mySidenav" class="sidenav">
                 <nav>
@@ -45,32 +52,63 @@
                 <section id="contact">
                     <h1>Contactez-moi</h1>
 
-                    <form id="formContact" action="https://formspree.io/f/mqabeeoy" method="POST">
+                    <form id="formContact">
+
                         <div class="form-group">
-                        <label for="nom">Nom *</label>
-                        <input type="text" id="nom" name="nom" required>
+                            <label for="nom">Nom *</label>
+                            <input
+                                type="text"
+                                id="nom"
+                                name="nom"
+                                autocomplete="name"
+                                maxlength="100"
+                                required
+                            >
                         </div>
 
                         <div class="form-group">
-                        <label for="email">Email *</label>
-                        <input type="email" id="email" name="email" required>
+                            <label for="email">Email *</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                autocomplete="email"
+                                maxlength="254"
+                                required
+                            >
                         </div>
 
                         <div class="form-group">
-                        <label for="message">Message *</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message">Message *</label>
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="5"
+                                maxlength="3000"
+                                required
+                            ></textarea>
                         </div>
 
-                        <div class="form-group checkbox">
-                        <input type="checkbox" id="accepteCGU" name="accepteCGU">
-                        <label for="accepteCGU">
-                            J’accepte les <a href="conditions-generales.html" target="_blank">conditions générales</a>
-                        </label>
-                        </div>
+                        <p class="info-confidentialite">
+                            Les informations saisies dans ce formulaire sont utilisées uniquement
+                            pour répondre à votre demande.
+                            Pour en savoir plus sur le traitement de vos données et sur vos droits,
+                            consultez notre
+                            <a href="politique-confidentialite.html">
+                                Politique de confidentialité
+                            </a>.
+                        </p>
 
+                        <div
+                            class="cf-turnstile"
+                            data-sitekey="0x4AAAAAAERdNFGJ61epvhWY">
+                        </div>
                         <div class="form-group">
-                        <button type="submit" id="btnEnvoyer" disabled>Envoyer</button>
+                            <button type="submit" id="btnEnvoyer">
+                                Envoyer
+                            </button>
                         </div>
+
                     </form>
 
                     <p id="confirmationMessage" class="confirmationMessage">
@@ -81,23 +119,22 @@
             <!-- Ici se termine le contenu de la page contact.html -->
             </div> <!-- Fin de pageContainer -->
 
-        <div id="pdpContent">
-            <footer id="footer">
+ <footer id="footer">
                 <section id="imgRsxSociaux">
-                    <a href="https://www.linkedin.com/in/beatrice-couderc" target="_blank" aria-label="LinkedIn">
+                    <a href="https://www.linkedin.com/in/beatrice-couderc" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                         <img src="images/logos/reseaux sociaux/linkedin-1.png" alt="Lien vers mon profil linkedin">
                     </a>
-                    <a href="https://github.com/bcouderc" target="_blank" aria-label="GitHub">
+                    <a href="https://github.com/bcouderc" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                         <img src="images/logos/reseaux sociaux/github_v1.png" alt="Lien vers GitHub">
                     </a>
                 </section>
                 <section id="liensGeneraux">
-                    <a href="experience.html">&copy; 2026 - CelticWebCraft</a>
+                    <span>&copy; 2026 - CelticWebCraft</span>
                     <a href="mentions-legales.html">Mentions légales</a>
                     <a href="conditions-generales.html">Conditions générales</a>
+                    <a href="politique-confidentialite.html">Politique de confidentialité</a>
                 </section>
-            </footer><!--  Fin du pied de page-->
-        </div>
+</footer><!--  Fin du pied de page-->
 
     </div><!-- Fin de pageWrapper-->
 </body>

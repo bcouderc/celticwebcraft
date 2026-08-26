@@ -43,31 +43,6 @@
         box-shadow: 0 0 0 3px rgba(255, 204, 0, 0.3);
       }
     }
-
-    &.checkbox {
-      flex-direction: row;
-      align-items: center;
-
-      input[type="checkbox"] {
-        margin-right: 0.5rem;
-        width: 20px;
-        height: 20px;
-      }
-
-      label {
-        margin: 0;
-        font-weight: normal;
-
-        a {
-          color: color("or");
-          text-decoration: underline;
-
-          &:hover {
-            text-decoration: none;
-          }
-        }
-      }
-    }
   }
 
   button {

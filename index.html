@@ -13,24 +13,26 @@
     <!-- Une PWA, ou Progressive Web App, est un site web qui se comporte comme une application mobile. Placé à la racine du site ce fichier permet de décrire l'application aux navigateurs (Chrome, Firefox, etc.)-->
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="/images/icones/favicon-16x16.ico">>
     <script src="data/main.js" defer></script>
     <script src="data/menuBurger.js" defer></script>
-    <script src="data/menu.js"></script>
+    <script src="data/menu.js" defer></script>
     <title>Portfolio de Béatrice COUDERC</title>
 </head>
 <body>
-    <header id="mainHeader"> <!--Ici se trouve l'entête de la page-->
-            <section>
-                <img src="images/logos/CWC_logo.png" alt="logo CelticWebCraft"></img>
-            </section>
-            <section id="mySidenav" class="sidenav">
+    <div id="pageWrapper">
+        <header id="mainHeader"> <!--Ici se trouve l'entête de la page-->
+            <div>
+                <img src="images/logos/CWC_logo.png" alt="logo CelticWebCraft">
+            </div>
+            <div id="mySidenav" class="sidenav">
                 <nav>
                     <button id="closeBtn" class="close" aria-label="Fermer le menu">X</button>
                     <ul id="navigation">
                         <!-- Menu mis à jour dynamiquement via le script menu-->
                     </ul>
                 </nav>
-            </section><!--Fin siedeNav-->
+            </div><!--Fin mySidenav-->
             <button id="openBtn" aria-label="Ouvrir le menu">
                 <span class="burger-icon">
                     <span></span>
@@ -38,12 +40,10 @@
                     <span></span>
                 </span>
             </button><!--Fin du menu burger-->            
-        </header><!-- Fin du header-->
-    <div id="pageWrapper"> 
+        </header><!-- Fin du header--> 
         <div id="pageContainer">                
-            <!-- Ici commence le contenu de la page index.html -->
-
-                <section id="pageTitre"> 
+            <!-- Ici commence le contenu de la page x.html -->
+               <section id="pageTitre"> 
                     <figure id="imgPortrait">
                         <img src="images/portrait/StylizePhoto_4_20240519-v2.jpeg" alt="dessin portrait de l'auteur de cette page">
                     </figure>
@@ -68,26 +68,25 @@
                 <p>
                     Chaque projet est conçu sur mesure, avec une attention particulière portée à la simplicité, à la performance et à l'expérience utilisateur.
                 </p>
+            <!-- Ici se termine le contenu de la page x.html -->
+        </div> <!-- Fin de pageContainer -->
 
-            <!-- Ici se termine le contenu de la page index.html -->
-            </div> <!-- Fin de pageContainer -->
+        <footer id="footer">
+            <section id="imgRsxSociaux">
+                <a href="https://www.linkedin.com/in/beatrice-couderc" target="_blank" aria-label="LinkedIn">
+                    <img src="images/logos/reseaux sociaux/linkedin-1.png" alt="Lien vers mon profil linkedin">
+                </a>
+                <a href="https://github.com/bcouderc" target="_blank" aria-label="GitHub">
+                    <img src="images/logos/reseaux sociaux/github_v1.png" alt="Lien vers GitHub">
+                </a>
+            </section>
+            <section id="liensGeneraux">
+                <span>&copy; 2026 - CelticWebCraft</span>
+                <a href="mentions-legales.html">Mentions légales</a>
+                <a href="conditions-generales.html">Conditions générales</a>
+                <a href="politique-confidentialite.html">Politique de confidentialité</a>
+            </section>
+        </footer><!--  Fin du pied de page-->
     </div><!-- Fin de pageWrapper-->
-    <div id="pdpContent">
-            <footer id="footer">
-                <section id="imgRsxSociaux">
-                    <a href="https://www.linkedin.com/in/beatrice-couderc" target="_blank" aria-label="LinkedIn">
-                        <img src="images/logos/reseaux sociaux/linkedin-1.png" alt="Lien vers mon profil linkedin">
-                    </a>
-                    <a href="https://github.com/bcouderc" target="_blank" aria-label="GitHub">
-                        <img src="images/logos/reseaux sociaux/github_v1.png" alt="Lien vers GitHub">
-                    </a>
-                </section>
-                <section id="liensGeneraux">
-                    <a href="experience.html">&copy; 2026 - CelticWebCraft</a>
-                    <a href="mentions-legales.html">Mentions légales</a>
-                    <a href="conditions-generales.html">Conditions générales</a>
-                </section>
-            </footer><!--  Fin du pied de page-->
-        </div>
 </body>
 </html>

@@ -1,19 +1,17 @@
 /* Mise en forme de _pdp.scss */
-#pdpContent {
+#footer {
     display: flex;
     justify-content: center;
     flex-direction: row;
     align-items: center;
     background-color: color("headerPDP");
     box-shadow: 0 0 15px 0 color("grise");
-    position: fixed;
-    height: 100px;
+    min-height: 100px; // le pdp fait minimum 100px de hauteur.
     width: 100%;
-    bottom: 0;
-    left: 0;
-    z-index: 100;
+    flex-shrink: 0;
 
-    & a {
+    & a,
+    & span {
         text-decoration: none;
         color: color();
         font-size: police("xxs");
@@ -27,7 +25,7 @@
     justify-content: center;
     margin: 0 0 10px 0;
     gap: 10px;
-    bottom: 20px;
+
     & img {
         border-radius: 5px;
         width: 30px;
