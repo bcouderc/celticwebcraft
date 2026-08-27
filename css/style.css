@@ -230,6 +230,10 @@ a:focus-visible {
   border-radius: 50%;
 }
 
+.btn-apropos {
+  margin-top: 1rem;
+}
+
 #competences {
   max-width: 800px;
   margin: 0 auto;

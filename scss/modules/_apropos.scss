@@ -8,5 +8,8 @@
     & #imgPortrait img {
         @include vignetteAPropos;
     }
+}
 
+.btn-apropos {
+    margin-top: 1rem;
 }
