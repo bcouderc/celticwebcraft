@@ -27,6 +27,10 @@ p, li, address {
   color: #FFF;
 }
 
+li {
+  font-size: 0.9rem;
+}
+
 p, address {
   font-size: 0.9rem;
   text-align: justify;

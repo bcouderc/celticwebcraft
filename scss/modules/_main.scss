@@ -25,6 +25,10 @@ p, li, address {
     color: color();
 }
 
+li {
+    font-size: police("sm");
+}
+
 p, address {
     font-size: police("sm");
     text-align: justify;
