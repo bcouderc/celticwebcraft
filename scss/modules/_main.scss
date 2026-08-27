@@ -32,15 +32,38 @@ p, address {
 }
 
 h1, h2 {
-    font-size: police("md");
     color: color("or");
     margin: 0;
+}
+
+h1 {
+    font-size: police("lg");
+}
+
+h2 {
+    font-size: police("md");
+    margin: 5px 0;
 }
 
 h3, h4 {
     font-size : police("xs");
     color: color("grise");
     margin: 0;
+}
+
+a {
+    color: color("grise"); // ta couleur
+    text-decoration: none;
+    transition: 0.2s ease;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+    &:focus-visible {
+        outline: 2px solid currentColor;
+        outline-offset: 3px;
+    }
 }
 
 #pageContainer {

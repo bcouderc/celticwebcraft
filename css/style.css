@@ -34,15 +34,36 @@ p, address {
 }
 
 h1, h2 {
-  font-size: 1rem;
   color: rgb(235, 180, 44);
   margin: 0;
+}
+
+h1 {
+  font-size: 1.2rem;
+}
+
+h2 {
+  font-size: 1rem;
+  margin: 5px 0;
 }
 
 h3, h4 {
   font-size: 0.8rem;
   color: rgb(187, 187, 187);
   margin: 0;
+}
+
+a {
+  color: rgb(187, 187, 187);
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
 }
 
 #pageContainer {
