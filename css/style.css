@@ -44,6 +44,7 @@ h1, h2 {
 
 h1 {
   font-size: 1.2rem;
+  margin-bottom: 10px;
 }
 
 h2 {
@@ -378,6 +379,11 @@ a:focus-visible {
 }
 #imgRsxSociaux a:hover img {
   transform: scale(1.1);
+}
+
+#liensGeneraux {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* Mise en forme de _competenceSVG.scss */
