@@ -1,7 +1,10 @@
-@function color($color : "white"){
-    @return map-get($colors, $color);
+@use "sass:map";
+@use "variables" as vars;
+
+@function get-color($color: "white") {
+    @return map.get(vars.$colors, $color);
 }
 
-@function police($font-size){
-    @return map-get($font-sizes, $font-size);
+@function get-police($font-size) {
+    @return map.get(vars.$font-sizes, $font-size);
 }

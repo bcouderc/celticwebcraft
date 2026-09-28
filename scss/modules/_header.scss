@@ -1,12 +1,15 @@
 /* Mise en forme de _header.scss*/
+@use "../utils/fonctions" as fn;
+@use "../utils/mixins" as mix;
+
 #mainHeader{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     flex-shrink: 0;
     align-items: center;
-    background-color: color("headerPDP");
-    box-shadow: 0 0 15px 0 color("grise");
+    background-color: fn.get-color("headerPDP");
+    box-shadow: 0 0 15px 0 fn.get-color("grey");
     height: 100px;
     width: 100%;
     z-index: 100;
@@ -25,16 +28,16 @@
     & a{
         text-decoration: none;
         list-style-type: none;
-        color: color("or");
+        color: fn.get-color("or");
         &:hover{
-            color: color();
-            text-shadow: 2px 1px 2px color("grise");
+            color: fn.get-color();
+            text-shadow: 2px 1px 2px fn.get-color("grey");
         }
     }
     & li {
         display: inline;
         font-family: "zen dots";
-        font-size: police("xl");
+        font-size: fn.get-police("xl");
     };
 }
 

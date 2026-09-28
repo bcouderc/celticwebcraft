@@ -1,3 +1,5 @@
+@use "fonctions" as fn;
+
 @mixin fontFamily {
     font-family: "Josefin Sans", Verdana, sans-serif;
 }
@@ -32,8 +34,8 @@
 
 @mixin boxShadow{
     display: block;
-    border: 5px solid color("degrad1_");
-    box-shadow: 2px 2px 10px 2px color("ombre");
+    border: 5px solid fn.get-color("degrad1");
+    box-shadow: 2px 2px 10px 2px fn.get-color("ombre");
 }
 
 @mixin button{
@@ -41,12 +43,12 @@
     padding: 7px 2rem;
     margin-bottom: 10px;
     opacity: 80%;
-    background-color: color("grey");
+    background-color: fn.get-color("grey");
     border: none;
     border-radius: 8px;
-    color: color("black");
+    color: fn.get-color("black");
     font-weight: bold;
-    font-size: police("md");
+    font-size: fn.get-police("md");
     cursor: pointer;
     transition: background-color 0.3s, opacity 0.2s;
 }

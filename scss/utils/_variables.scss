@@ -1,23 +1,15 @@
-:root {
-    box-sizing: border-box;
-}
-
 $colors: (
     "or": #ebb42c,
     "grey": #f5f5f5,
     "grey_more": #bfc7c7,
     "headerPDP":#000,
-    "degrad1_":#202020,
-    "degrad2_":#6D6D6D,
+    "degrad1":#082527,
+    "degrad2":#164C50,
+    "black": #000,
 
-    "black": #333,
     "white": #FFF,
-    "grise":rgb(187, 187, 187),
-    "fond" : #404040,
-
+   
     "ombre":#000000b4,
-
-    "closeButton": #133133,
     "darkBlue":#19354d,
     "shadow" : rgba(255, 255, 255, 0.15),
 );

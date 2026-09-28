@@ -1,21 +1,15 @@
-//import Polices
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Zen+Dots&display=swap');
 
 //import utils
-@import "utils/variables";
-@import "utils/mixins";
-@import "utils/fonctions";
+@use "utils/variables";
+@use "utils/mixins";
+@use "utils/fonctions";
 
 //import modules
-@import "modules/main";
-@import "modules/header";
-@import "modules/index";
-@import "modules/apropos";
-@import "modules/competences";
-@import "modules/contact";
-@import "modules/pdp";
-@import "modules/competencesSVG";
-@import "modules/responsive";
-@import "modules/experiences";
-@import "modules/menuBurger";
-
+@use "modules/main";
+@use "modules/header";
+@use "modules/index";
+@use "modules/apropos";
+@use "modules/contact";
+@use "modules/pdp";
+@use "modules/responsive";
+@use "modules/menuBurger";

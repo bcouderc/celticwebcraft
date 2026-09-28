@@ -1,6 +1,8 @@
 /* Mise en forme de _main.scss */
+@use "../utils/fonctions" as fn;
+@use "../utils/mixins" as mix;
 
-html {
+:root {
     box-sizing: border-box;
 }
 
@@ -11,53 +13,53 @@ html {
 }
 
 body {
-    @include fontFamily;
-    //max-width: 1800px;
-    font-size: police("md");
-    background: color("degrad1");
-    background: -moz-linear-gradient(45deg, color("degrad1") 0%, color("degrad2") 62%, color("degrad1") 100%);
-    background: -webkit-linear-gradient(45deg,color("degrad1") 0%, color("degrad2") 62%, color("degrad1") 100%);
-    background: linear-gradient(45deg, color("degrad1") 0%, color("degrad2") 62%, color("degrad1") 100%);
+    @include mix.fontFamily;
+
+    font-size: fn.get-police("md");
+    background: fn.get-color("degrad1");
+    background: -moz-linear-gradient(45deg, fn.get-color("degrad1") 0%, fn.get-color("degrad2") 62%, fn.get-color("degrad1") 100%);
+    background: -webkit-linear-gradient(45deg, fn.get-color("degrad1") 0%, fn.get-color("degrad2") 62%, fn.get-color("degrad1") 100%);
+    background: linear-gradient(45deg, fn.get-color("degrad1") 0%, fn.get-color("degrad2") 62%, fn.get-color("degrad1") 100%);
     margin: 0;
 }
 
 p, li, address {
-    color: color();
+    color: fn.get-color();
 }
 
 li {
-    font-size: police("sm");
+    font-size: fn.get-police("sm");
 }
 
 p, address {
-    font-size: police("sm");
+    font-size: fn.get-police("sm");
     text-align: justify;
     margin: 5px 15px;
 }
 
 h1, h2 {
-    color: color("or");
+    color: fn.get-color("or");
     margin: 0;
 }
 
 h1 {
-    font-size: police("lg");
+    font-size: fn.get-police("lg");
     margin-bottom: 10px;
 }
 
 h2 {
-    font-size: police("md");
+    font-size: fn.get-police("md");
     margin: 5px 0;
 }
 
 h3, h4 {
-    font-size : police("xs");
-    color: color("grise");
+    font-size : fn.get-police("xs");
+    color: fn.get-color("grey");
     margin: 0;
 }
 
 a {
-    color: color("grise"); // ta couleur
+    color: fn.get-color("grey"); // ta couleur
     text-decoration: none;
     transition: 0.2s ease;
 

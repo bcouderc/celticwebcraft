@@ -1,4 +1,7 @@
 //Mise en forme de _apropos.scss
+@use "../utils/fonctions" as fn;
+@use "../utils/mixins" as mix;
+
 #pageContent {
     & main {
         display: flex;
@@ -6,7 +9,7 @@
     }
 
     & #imgPortrait img {
-        @include vignetteAPropos;
+        @include mix.vignetteAPropos;
     }
 }
 

@@ -11,8 +11,8 @@
     margin: 0 0 20px 0;
 
     & > h1 {
-    font-size: police("xxl");
-    color: color("white");
+    font-size: fn.get-police("xxl");
+    color: fn.get-color("white");
     }
 }
 

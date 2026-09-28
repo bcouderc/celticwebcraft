@@ -1,11 +1,14 @@
 /* Mise en forme de _index.scss */
+@use "../utils/fonctions" as fn;
+@use "../utils/mixins" as mix;
+
 #pageTitre {
     display: flex;
     align-items: center;
     margin-top: 7px;
 
     #imgPortrait img{
-        @include vignetteMobile;
+        @include mix.vignetteMobile;
     }
 
     & div { 
@@ -25,15 +28,15 @@
 
     & .titre {
       & h1{
-        font-size: police("lg");
+        font-size: fn.get-police("lg");
       }
       &_métier{
-        font-size: police("md")
-        color: color("grey");
+        font-size: fn.get-police("md");
+        color: fn.get-color("grey");
       }
       &_marque{
-        font-size: police("xs")
-        color: color("grey_more")
+        font-size: fn.get-police("xs");
+        color: fn.get-color("grey_more");
       }
 
     }
@@ -42,16 +45,16 @@
 
 .btn{
   a {
-    @include fontFamily;
+    @include mix.fontFamily;
     text-decoration: none;
-    color: color("darkBlue");
-    color: color("black");
+    color: fn.get-color("darkBlue");
+    color: fn.get-color("black");
     font-weight: bold;
-    font-size: police("md");
+    font-size: fn.get-police("md");
     padding: 5px 10px;
     margin-bottom: 10px;
     border-radius: 7px;
-    background-color: color("grise");
+    background-color: fn.get-color("grey");
     opacity: 70%;
     cursor: pointer;
   }

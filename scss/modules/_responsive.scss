@@ -1,4 +1,7 @@
 /* Mise en forme de _responsive.scss */
+@use "../utils/fonctions" as fn;
+@use "../utils/mixins" as mix;
+
 @media screen and (max-width:950px){
 
 /* Mise en forme de la page index */
@@ -13,7 +16,7 @@
         h1,
         h2,
         h3 {
-            font-size: police("md");
+            font-size: fn.get-police("md");
         }
     }
     
@@ -30,7 +33,7 @@
 
 /* Mise en page de la page expériences*/
 #expPro > h1 {
-    font-size: police("lg");
+    font-size: fn.get-police("lg");
 }
 
 } // fin de @media

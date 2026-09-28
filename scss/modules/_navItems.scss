@@ -1,4 +1,7 @@
 /* Mise en forme du _navItems.scss */
+@use "../utils/fonctions" as fn;
+@use "../utils/mixins" as mix;
+
   .menuNav{
     display: flex;
     flex-direction: row;
@@ -11,7 +14,7 @@
     justify-content: center;
     height: 100px;
     width:100px;
-    border: solid 2px color("grise");
+    border: solid 2px fn.get-color("grey");
     border-radius : 100%;
     & img {
         width: auto;
@@ -36,7 +39,7 @@
     height:50px;
   }
   .div1{
-    border-bottom:solid 2px color("grise");
+    border-bottom:solid 2px fn.get-color("grey");
   }
 
   .dots{
@@ -48,7 +51,7 @@
     margin-inline: 5px;
     width: 13px;
     height: 13px;
-    background-color: color("or");
+    background-color: fn.get-color("or");
     border-radius: 100%;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.28);
     &_selected{

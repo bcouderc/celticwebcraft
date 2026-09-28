@@ -1,12 +1,15 @@
 /* Mise en forme de _pdp.scss */
+@use "../utils/fonctions" as fn;
+@use "../utils/mixins" as mix;
+
 #footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     
-    background-color: color("headerPDP");
-    box-shadow: 0 0 15px 0 color("grise");
+    background-color: fn.get-color("headerPDP");
+    box-shadow: 0 0 15px 0 fn.get-color("grey");
     
     min-height: 100px; // le pdp fait minimum 100px de hauteur.
     width: 100%;
@@ -15,8 +18,8 @@
     & a,
     & span {
         text-decoration: none;
-        color: color();
-        font-size: police("xxs");
+        color: fn.get-color();
+        font-size: fn.get-police("xxs");
         margin: 0 10px 0;
         text-align: center;
     }

@@ -1,12 +1,15 @@
+@use "../utils/fonctions" as fn;
+@use "../utils/mixins" as mix;
+
 @media screen and (max-width:950px){
 /* Mise en forme de _menuBurger.scss */
     #navigation {
         & a {
-            color: color("closeButton");
+            color: fn.get-color("grey");
         }
 
         & li {
-            font-size:police("lg");
+            font-size:fn.get-police("lg");
         }
     }
 
@@ -24,9 +27,9 @@
         position: absolute;
         top: 10px;
         left: 20px;
-        font-size: police("xl");
+        font-size: fn.get-police("xl");
         text-decoration: none;
-        color: color("closeButton");
+        color: fn.get-color("grey");
         z-index: 3;
     }
 
@@ -37,7 +40,6 @@
         padding: 0;
         margin: 0;
         font: inherit;
-        color: inherit;
         cursor: pointer;
     }
 
@@ -52,7 +54,7 @@
             display: block;
             width: 20px;
             height: 2px;
-            background-color: color("navResponsive");
+            background-color: fn.get-color("grey_more");
             margin: 6px 0;
             transition: 0.4s;
         }
@@ -66,7 +68,8 @@
         z-index: 1;
         top: 0;
         right: -280px;
-        background-color: color("navResponsive");
+        background-color: fn.get-color("degrad1");
+        opacity: 95%;
         padding-top: 60px;
         transition: right .8s ease;
         box-shadow: -2px 0 5px rgba(0,0,0,0.1);
@@ -82,7 +85,7 @@
                 padding: 10px 20px;
 
                 & a {
-                    font-size: police("md");
+                    font-size: fn.get-police("md");
                     text-decoration: none;
                     display: block;
                 }

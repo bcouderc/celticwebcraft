@@ -1,4 +1,7 @@
 //Mise en forme de _competences.scss
+@use "../utils/fonctions" as fn;
+@use "../utils/mixins" as mix;
+
 #competences {
   max-width: 800px;
   margin: 0 auto;
@@ -6,7 +9,7 @@
 
   h1, h2 {
     text-align: center;
-    color: color("or");
+    color: fn.get-color("or");
   }
 
   ul {
@@ -28,7 +31,7 @@
 
         .fill {
           height: 100%;
-          background-color: color("or");
+          background-color: fn.get-color("or");
           width: 0%;
           animation: fillBar 2s ease forwards;
         }

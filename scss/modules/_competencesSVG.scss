@@ -27,7 +27,7 @@ svg {
 
     & circle {
     fill: none;
-    stroke: color("grise");
+    stroke: fn.get-color("grey");
     stroke-width: 5px;
     transform: translate(10px, 10px);
     stroke-dasharray: 500;
@@ -35,9 +35,9 @@ svg {
     stroke-linecap: round;
 
         &:nth-child(1){
-            stroke: color("circle");
+            stroke: fn.get-color("circle");
             stroke-dashoffset: 0;
-            filter: drop-shadow(2px 1px 2px color("ombre"));
+            filter: drop-shadow(2px 1px 2px fn.get-color("ombre"));
         }
     }
 }
@@ -66,7 +66,7 @@ span.texte {
     left: 50%;
     font-size: polices();
     font-weight: 300;
-    color: color("grise");
+    color: fn.get-color("grey");
     &.html {
         transform: translate(-25px, -9px);
     }

@@ -11,8 +11,8 @@
     margin: 0 0 20px 0;
 
     & > h1 {
-    font-size: police("xl");
-    color: color("white");
+    font-size: fn.get-police("xl");
+    color: fn.get-color("white");
     }
 }
 
@@ -23,5 +23,5 @@
 }
 
 .liste {
-    font-size: police("xs");
+    font-size: fn.get-police("xs");
 }

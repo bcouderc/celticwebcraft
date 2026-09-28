@@ -1,4 +1,7 @@
 /* Mise en forme de _contact.scss */
+@use "../utils/fonctions" as fn;
+@use "../utils/mixins" as mix;
+@use "sass:color";
 
 #contact {
   max-width: 600px;
@@ -25,43 +28,46 @@
     label {
       margin-bottom: 0.5rem;
       font-weight: bold;
-      color: color("grise");
+      color: fn.get-color("grey");
     }
 
     input[type="text"],
     input[type="email"],
     textarea {
       padding: 0.8rem;
-      border: 1px solid color("grise");
+      border: 1px solid fn.get-color("grey");
       border-radius: 8px;
       font-size: 1rem;
       resize: vertical;
 
       &:focus {
         outline: none;
-        border-color: color("or");
+        border-color: fn.get-color("or");
         box-shadow: 0 0 0 3px rgba(255, 204, 0, 0.3);
       }
     }
   }
 
   button {
-    @include button;
+    @include mix.button;
 
     &:disabled {
-      background-color: #ccc;
+      background-color: fn.get-color("grey");
       cursor: not-allowed;
       opacity: 0.6;
     }
 
     &:hover:not(:disabled) {
-      background-color: darken(color("or"), 10%);
+        background-color: color.adjust(
+            fn.get-color("or"),
+            $lightness: -10%
+        );
     }
   }
 }
 
 .confirmationMessage {
     display: none;
-    color: color("or");
+    color: fn.get-color("or");
     margin-top: 1rem;
 }
