@@ -23,19 +23,21 @@
         text-align: center;
     }
 
-    & .titre h1, h2{
+    & .titre {
+      & h1{
         font-size: police("lg");
+      }
+      &_métier{
+        font-size: police("md")
+        color: color("grey");
+      }
+      &_marque{
+        font-size: police("xs")
+        color: color("grey_more")
+      }
+
     }
-    
-    & .titre h3{
-      font-size:  police("md");
-      margin: 5px 0 5px 0;
-    }
-    
-    & .titre h4{
-      font-size: police("xs");
-      font-style: oblique;
-    }
+
 }
 
 .btn{
