@@ -2,7 +2,8 @@
 @use "../utils/fonctions" as fn;
 @use "../utils/mixins" as mix;
 
-@media screen and (max-width:950px){
+/* Tablette */
+@media screen and (min-width:700px){
 
 /* Mise en forme de la page index */
     #pageTitre {
@@ -28,12 +29,30 @@
         }
     }
 
-/* Mise en forme de la page compétences*/
+/* Mise en forme de la page projet */
+    .projects-header{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .projects-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
 
+/* *********************************************************************** */
+/* Desktop */
+    @media screen and (min-width: 1000px){
+    /* Mise en page globale de la version desktop */
+        #pageContainer{
+            width: min(100% - 4rem, 1200px);
+            margin-inline: auto;
+        }
 
-/* Mise en page de la page expériences*/
-#expPro > h1 {
-    font-size: fn.get-police("lg");
-}
-
+    
+    /* Mise en forme page projet */
+    .projects-grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    }
 } // fin de @media

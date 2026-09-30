@@ -15,12 +15,6 @@ fetch('data/menu.json')
       if (pageName === "Accueil") {
         pageName = "index";
       }
-      if (pageName === "Services proposés") {
-        pageName = "services";
-      }
-      if (pageName === "Grille des tarifs") {
-        pageName = "tarifs";
-      }
       // Transforme le nom de la page en nom de fichier :
       // "Accueil" → "../accueil.html" (remonte d’un dossier dans l’arborescence)
 
@@ -31,7 +25,24 @@ fetch('data/menu.json')
       //const fileName = '../' + pageName.toLowerCase().replace(/\s+/g, '') + '.html';
       // Définit le texte affiché du lien (le nom de la page)
 
-      a.href = fileName; // Définit l’attribut href du lien pour qu’il pointe vers la bonne page
+      // permet de changer la couleur de la page active
+      a.href = fileName;  // Définit l’attribut href du lien pour qu’il pointe vers la bonne page
+
+      // Récupère le nom de la page actuellement affichée
+      let currentPage = window.location.pathname.split('/').pop();
+
+      // Cas particulier de la page d'accueil
+      if (currentPage === '') {
+        currentPage = 'index.html';
+      }
+
+      // Si le lien correspond à la page actuelle,
+      // on lui ajoute la classe active
+      if (fileName === currentPage) {
+        a.classList.add('active');
+        a.setAttribute('aria-current', 'page');
+      }
+
       li.appendChild(a); // Ajoute le lien à l’intérieur du <li>
       navContainer.appendChild(li); // Ajoute le <li> au conteneur <ul>
     });

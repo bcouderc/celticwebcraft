@@ -28,21 +28,21 @@
     & a{
         text-decoration: none;
         list-style-type: none;
-        color: fn.get-color("or");
+        color: fn.get-color("grey");
         &:hover{
-            color: fn.get-color();
-            text-shadow: 2px 1px 2px fn.get-color("grey");
+            color: fn.get-color("grey");
+        }
+        &.active{
+            color: fn.get-color("or");
         }
     }
     & li {
+        @include mix.fontFamily;
         display: inline;
-        font-family: "zen dots";
         font-size: fn.get-police("xl");
     };
 }
 
-// ERREUR > Code à mettre dans le responsive > MOBILE FIRST
-// Inversement récupérer le code pour le menu burger qui est dans responsive
 #openBtn, #closeBtn {
     display: none;
 }
