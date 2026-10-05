@@ -150,9 +150,10 @@ a:focus-visible {
 #pageTitre #imgIndex .imgDesktop {
   display: none;
 }
-#pageTitre > div {
+#pageTitre > article {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 #pageTitre #imgRsxSociaux img {
   width: 40px;
