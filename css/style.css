@@ -150,7 +150,7 @@ a:focus-visible {
 #pageTitre #imgIndex .imgDesktop {
   display: none;
 }
-#pageTitre > article {
+#pageTitre > div > article {
   display: flex;
   flex-direction: column;
   justify-content: center;
