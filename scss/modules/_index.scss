@@ -52,11 +52,12 @@
         }
 
         // Petit espace maîtrisé entre chaque ligne
-        gap: 4px;
+        gap: 8px;
 
         h1 {
             font-size: fn.get-police("lg");
             line-height: 1.1;
+            margin-top: 20px;
         }
 
         &_titre_metier {
@@ -74,6 +75,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 40px;
     }
 }
 
