@@ -12,13 +12,7 @@
 
 @mixin vignetteMobile {
     @include boxShadow();
-    width: 100px;
-    border-radius: 50%;
-}
-
-@mixin vignetteAPropos {
-    @include boxShadow();
-    width: 300px;
+    width: 150px;
     border-radius: 50%;
 }
 

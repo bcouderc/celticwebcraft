@@ -8,11 +8,18 @@
         flex-direction: row;
     }
 
-    & #imgPortrait img {
-        @include mix.vignetteAPropos;
+    & #imgAPropos {
+        display: flex;
+        justify-content: center;
+
+        & img {
+            @include mix.vignetteMobile;
+        }
     }
 }
 
 .btn-apropos {
+    display: flex;
+    justify-content: center;
     margin-top: 1rem;
 }

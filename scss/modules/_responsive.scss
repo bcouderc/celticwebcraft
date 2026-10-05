@@ -2,54 +2,84 @@
 @use "../utils/fonctions" as fn;
 @use "../utils/mixins" as mix;
 
+/* *********************************************************************** */
 /* Tablette */
 @media screen and (min-width:700px){
 
-/* Mise en forme de la page index */
-
-    .titre {
-        align-items: center;
-        margin: 20px 0 20px 0;
-
+    /* Mise en forme de la page index */
+    .titre {        
         h1,
         h2,
         h3 {
             font-size: fn.get-police("md");
         }
+        margin: 30px 0 30px 0;
     }
-    
-/* Mise en forme de la page apropos*/
-    #pageContent #imgPortrait {
+    .btn {
+        display: flex;
+        gap: 20px;
+    }
+    #pageTitre{
+        display: flex;
+        flex-direction: row;
+
+        #imgIndex {
+            .imgMobileFirst {
+                display: none;
+            }
+            .imgDesktop{
+                display: block;
+                height: 512px;
+            }
+        }
+
+        .hero{
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            
+            .accroche {
+                font-size: fn.get-police("lg");
+                font-weight: bold;
+            }
+        }
+    }
+
+    /* Mise en forme de la page apropos */
+    #pageContent #imgAPropos {
         margin: 0;
+
         & img {
             display: none;
         }
     }
 
-/* Mise en forme de la page projet */
-    .projects-header{
+    /* Mise en forme de la page projet */
+    .projects-header {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         width: 100%;
     }
-    .projects-grid{
+
+    .projects-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+}
 
 /* *********************************************************************** */
 /* Desktop */
-    @media screen and (min-width: 1000px){
-    /* Mise en page globale de la version desktop */
-        #pageContainer{
-            width: min(100% - 4rem, 1200px);
-            margin-inline: auto;
-        }
+@media screen and (min-width: 1000px) {
 
-    
+    /* Mise en page globale de la version desktop */
+    #pageContainer {
+        width: min(100% - 4rem, 1200px);
+        margin-inline: auto;
+    }
+
     /* Mise en forme page projet */
-    .projects-grid{
+    .projects-grid {
         grid-template-columns: repeat(3, 1fr);
     }
-    }
+
 } // fin de @media

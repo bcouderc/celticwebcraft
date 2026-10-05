@@ -8,8 +8,16 @@
     align-items: center;
     margin-top: 7px;
 
-    #imgPortrait img{
-        @include mix.vignetteMobile;
+    #imgIndex {
+
+        .imgMobileFirst {
+            @include mix.vignetteMobile;
+            display: block;
+        }
+
+        .imgDesktop {
+            display: none;
+        }
     }
 
     & > div { 
