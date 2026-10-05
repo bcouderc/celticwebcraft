@@ -9,7 +9,6 @@
     margin-top: 7px;
 
     #imgIndex {
-
         .imgMobileFirst {
             @include mix.vignetteMobile;
             display: block;
@@ -20,37 +19,62 @@
         }
     }
 
-    & > div > article { 
+    // Tout le contenu textuel
+    .contenuHero {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-    }
-
-    #imgRsxSociaux img{
-        width: 40px;
-        height: auto;
-        border-radius: 5px;
-    }
-
-    & .hero p{
+        align-items: center;
         text-align: center;
+        width: 100%;
     }
 
-    & .titre {
-      & h1{
-        font-size: fn.get-police("lg");
-      }
-      &_métier{
-        font-size: fn.get-police("md");
-        color: fn.get-color("grey");
-      }
-      &_marque{
-        font-size: fn.get-police("xs");
-        color: fn.get-color("grey_more");
-      }
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
+        p {
+            text-align: center;
+        }
     }
 
+    // Nom + métier + marque
+    .titre {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        // Supprime les marges par défaut responsables
+        // des gros espaces entre les lignes
+        h1,
+        p {
+            margin: 0;
+        }
+
+        // Petit espace maîtrisé entre chaque ligne
+        gap: 4px;
+
+        h1 {
+            font-size: fn.get-police("lg");
+            line-height: 1.1;
+        }
+
+        &_titre_metier {
+            font-size: fn.get-police("md");
+            color: fn.get-color("grey");
+        }
+
+        &_titre_marque {
+            font-size: fn.get-police("xs");
+            color: fn.get-color("grey_more");
+        }
+    }
+
+    .btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .btn{

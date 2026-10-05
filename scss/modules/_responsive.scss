@@ -6,45 +6,6 @@
 /* Tablette */
 @media screen and (min-width:700px){
 
-    /* Mise en forme de la page index */
-    .titre {        
-        h1,
-        h2,
-        h3 {
-            font-size: fn.get-police("md");
-        }
-        margin: 30px 0 30px 0;
-    }
-    .btn {
-        display: flex;
-        gap: 20px;
-    }
-    #pageTitre{
-        display: flex;
-        flex-direction: row;
-
-        #imgIndex {
-            .imgMobileFirst {
-                display: none;
-            }
-            .imgDesktop{
-                display: block;
-                height: 512px;
-            }
-        }
-
-        .hero{
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-            
-            .accroche {
-                font-size: fn.get-police("lg");
-                font-weight: bold;
-            }
-        }
-    }
-
     /* Mise en forme de la page apropos */
     #pageContent #imgAPropos {
         margin: 0;
@@ -81,5 +42,58 @@
     .projects-grid {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    /* Mise en page de la page Accueil */
+
+    #pageTitre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+
+    #imgIndex {
+        .imgMobileFirst {
+            display: none;
+        }
+
+        .imgDesktop {
+            display: block;
+            height: 512px;
+            width: auto;
+        }
+    }
+
+    .contenuHero {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        flex: 1;
+    }
+
+    .hero {
+        align-items: flex-start;
+
+        p {
+            text-align: left;
+        }
+
+        .accroche {
+            font-size: fn.get-police("lg");
+            font-weight: bold;
+        }
+    }
+
+    .titre {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .btn {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 20px;
+    }
+}
 
 } // fin de @media
